@@ -1,0 +1,92 @@
+$(document).ready(function () {
+
+$("#tab_btn1").click(
+function () {
+	//隐藏所有TAB
+	for (var i=1;i<=6;i++)
+	{
+		$("div#tabs-"+i).addClass("hide");
+		$("#tab_btn"+i).css("background-color","#f1f2ea");
+	}
+	//只保留tab1
+	$("div#tabs-1").removeClass("hide");	
+	$(this).css("background-color","#09F");
+
+	}
+)
+
+$("#tab_btn2").click(
+function () {
+	//隐藏所有TAB
+	for (var i=1;i<=6;i++)
+	{
+		$("div#tabs-"+i).addClass("hide");
+		$("#tab_btn"+i).css("background-color","#f1f2ea");
+	}
+	//只保留tab2
+	$("div#tabs-2").removeClass("hide");	
+	$(this).css("background-color","#09F");
+
+	}
+)
+
+$("#tab_btn3").click(
+function () {
+	//隐藏所有TAB
+	for (var i=1;i<=6;i++)
+	{
+		$("div#tabs-"+i).addClass("hide");
+		$("#tab_btn"+i).css("background-color","#f1f2ea");
+	}
+	//只保留tab3
+	$("div#tabs-3").removeClass("hide");	
+	$(this).css("background-color","#09F");
+
+	}
+)
+
+$("#tab_btn4").click(
+function () {
+	//隐藏所有TAB
+	for (var i=1;i<=6;i++)
+	{
+		$("div#tabs-"+i).addClass("hide");
+		$("#tab_btn"+i).css("background-color","#f1f2ea");
+	}
+	//只保留tab4
+	$("div#tabs-4").removeClass("hide");	
+	$(this).css("background-color","#09F");
+
+	}
+)
+
+$("#tab_btn5").click(
+function () {
+	//隐藏所有TAB
+	for (var i=1;i<=6;i++)
+	{
+		$("div#tabs-"+i).addClass("hide");
+		$("#tab_btn"+i).css("background-color","#f1f2ea");
+	}
+	//只保留tab5
+	$("div#tabs-5").removeClass("hide");	
+	$(this).css("background-color","#09F");
+
+	}
+)
+
+$("#tab_btn6").click(
+function () {
+	//隐藏所有TAB
+	for (var i=1;i<=6;i++)
+	{
+		$("div#tabs-"+i).addClass("hide");
+		$("#tab_btn"+i).css("background-color","#f1f2ea");
+	}
+	//只保留tab6
+	$("div#tabs-6").removeClass("hide");	
+	$(this).css("background-color","#09F");
+
+	}
+)
+});

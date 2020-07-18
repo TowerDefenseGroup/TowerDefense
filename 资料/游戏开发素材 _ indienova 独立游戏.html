@@ -1,0 +1,2658 @@
+<!DOCTYPE html>
+<!-- saved from url=(0040)https://indienova.com/sp/gameDevResource -->
+<html><head lang="en"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" name="viewport">
+
+    <link rel="stylesheet" href="./游戏开发素材 _ indienova 独立游戏_files/stylepack.css" type="text/css">
+                                            
+    <link rel="stylesheet" href="./游戏开发素材 _ indienova 独立游戏_files/indienova-style.css" type="text/css">
+
+    <!-- Icon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="https://static.indienova.com/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="https://static.indienova.com/assets/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://static.indienova.com/assets/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="https://static.indienova.com/assets/favicon/manifest.json">
+    <link rel="mask-icon" href="https://static.indienova.com/assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="apple-mobile-web-app-title" content="indienova">
+    <meta name="application-name" content="indienova">
+    <meta name="theme-color" content="#ffffff">
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <div class="fit-vids-style">­<style> .fluid-width-video-wrapper { width: 100%; position: relative; padding: 0; } .fluid-width-video-wrapper iframe, .fluid-width-video-wrapper object, .fluid-width-video-wrapper embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; } </style></div><script type="text/javascript" async="" charset="utf-8" src="./游戏开发素材 _ indienova 独立游戏_files/core.php"></script><script async="" src="./游戏开发素材 _ indienova 独立游戏_files/analytics.js.下载"></script><script src="./游戏开发素材 _ indienova 独立游戏_files/push.js.下载"></script><script type="text/javascript" async="" charset="utf-8" src="./游戏开发素材 _ indienova 独立游戏_files/c.php"></script><script src="./游戏开发素材 _ indienova 独立游戏_files/ie10-viewport-bug-workaround.js.下载"></script>
+
+    <!-- External JavaScripts
+    ============================================= -->
+    <script type="text/javascript" src="./游戏开发素材 _ indienova 独立游戏_files/jquery.js.下载"></script>
+    <script type="text/javascript" src="./游戏开发素材 _ indienova 独立游戏_files/plugins.js.下载"></script>
+    <script type="text/javascript" src="./游戏开发素材 _ indienova 独立游戏_files/prettify.js.下载"></script>
+
+        
+    <!-- Document Title ============================================= -->
+            <title>游戏开发素材 | indienova 独立游戏</title>
+    
+    
+    <meta name="description" content="indienova 独立游戏 新闻，评测，开发教学, 烽火连城">
+    <meta name="keywords" content="独立游戏 indienova 新闻 评测 开发 教学 烽火连城">
+    <meta name="author" content="indienova.com 烽火连城">
+<style type="text/css">.scroll-bar, .cc_cursor, body, .ogdlpmhglpejoiomcodnpjnfgcpmgale_default, body, html, input[type="date"], input[type="time"], input[type="datetime-local"], input[type="month"], input::-webkit-contacts-auto-fill-button, input:read-only {cursor: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA6UlEQVQ4T53TvQrCMBQF4JOKTm4OQltwcHBycPENnN0F305xd/QpxFFwkZuWCI4OEttIpC39tUkDhRJ6v94cbpjv+yqO43UQBEd0WEwDSd2ViGa2xg8gogzS7zZIBuiitBsbpAAkSAyAmSIVQCOe550YY6soiiZhGN7/HakWSDqZA7gA2BHRtglpBNICnYtS6sM579chrUBbuHUhvgEMcn97ArgBWOq9crgFwHXdjeM4ewAHANPkGeVbl1KOhRCPdK8yB1LKoRDiZTpMhUlUSp055wvTYv1d/i5UzmcCdb4D5Qx6APQIW68vhVCKEYPNpiYAAAAASUVORK5CYII=") 0 0 , auto !important; }.h24, .h24.cc_pointer, .h24-thumb, .h24-bg, .h24-icon, .no-title, .icon-line2-star, .icon-line-paper, .cc_pointer,[type="search"]::-webkit-search-cancel-button, [type="search"]::-webkit-search-decoration, .paper-button, .ytp-progress-bar-container, input[type=submit], :link, :visited, a > *, img, button, ::-webkit-scrollbar-button, .ogdlpmhglpejoiomcodnpjnfgcpmgale_pointer, ::-webkit-file-upload-button, button, .ytp-volume-panel, #myogdlpmhglpejoiomcodnpjnfgcpmgale .icon { cursor: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABNUlEQVQ4T8WTsU4DMQyG88MtgBATS+wFiRkJJhASCxsLj8BD8Bq8AgO8AQsTC0ioWyvxBCedY3VgqhgYrhdkqanSUHrdyHI5x/7i33bgikVEEwC7ZhYRlOfl/4IDEZ0CGFggEd0CuOuDlICh3RBCOLEvM8f/B1gmXdftq+rnsnr0Sogx3gB4SMEAHqfT6Zuq3pttJSAFEdEghHBm/szczexWnw0DbDJzm5xjjKNUxGTz3p+r6nsuIRXYiBEANU2jtl8GWKZ9AZC3ioiGloH3/lhVR3mw9/5aVZ/yFtvAvAC4LPu9NiDRnHMTEdnLdP+ZATN/OOcORWR73gXT1LbtwXg8rmfQIxExx/li5isReTbfqqq26rr+XmjjOqNbjngJeHXOXfTNf37Rr+dKRF8AdlY941zqD5DDyRGPEEprAAAAAElFTkSuQmCC") 5 0, auto !important; } </style></head>
+<body class="stretched no-transition device-lg">
+
+    <!-- Document Wrapper ============================================= -->
+    <div id="wrapper" class="clearfix">
+
+            <div class="device-xs visible-xs"></div>
+    <div class="device-sm visible-sm"></div>
+    <div class="device-md visible-md"></div>
+    <div class="device-lg visible-lg"></div>
+            <div id="top-bar">
+
+            <div class="container topline clearfix">
+
+                <div class="col_half nobottommargin">
+
+                    <!-- Top Links
+                    ============================================= -->
+                    <div class="top-links">
+                        <ul class="sf-menu clearfix sf-js-enabled" style="touch-action: pan-y;">
+                            <li>
+                                <a href="https://indienova.com/" class="hidden-xs">首页</a>
+                                <a href="https://indienova.com/" class="visible-xs"><i class="icon-cn-indienova"></i></a>
+                            </li>
+                            <li id="user-block">
+                                                                        <a href="https://indienova.com/get/login" data-lightbox="ajax"><i class="icon-line2-user"></i> 登录／注册</a>
+                                    
+                                                            </li>
+                                                        
+                            <li>
+                                <a href="https://indienova.com/en" class="hidden-xs sf-with-ul">
+                                    <img width="14" height="14" src="./游戏开发素材 _ indienova 独立游戏_files/gb.svg" alt="English">
+                                    &nbsp; English
+                                <i class="icon-angle-down"></i></a>
+                                <a href="https://indienova.com/en" class="visible-xs sf-with-ul">
+                                    <img width="14" height="14" src="./游戏开发素材 _ indienova 独立游戏_files/gb.svg" alt="English">
+                                    &nbsp; En
+                                <i class="icon-angle-down"></i></a>
+                                <ul class="topper-list" style="display: none;">
+                                    <li>
+                                        <a href="https://indienova.com/en">
+                                            <img width="14" height="14" src="./游戏开发素材 _ indienova 独立游戏_files/gb.svg" alt="English">
+                                            English
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://indienova.com/">
+                                            <img width="14" height="14" src="./游戏开发素材 _ indienova 独立游戏_files/cn.svg" alt="Chinese">
+                                            简体中文
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div><!-- .top-links end -->
+
+                </div>
+
+                <div class="col_half fright col_last nobottommargin">
+
+                    <!-- Top Social
+                    ============================================= -->
+                    <div id="top-social">
+                        <ul>
+                            <li><a data-hover-width="104" style="width: 40px;" href="http://weibo.com/indienova" target="new" class="si-weibo"><span class="ts-icon"><i class="icon-cn-weibo"></i></span><span class="ts-text">新浪微博</span></a></li>
+                            <li><a data-hover-width="113" style="width: 40px;" href="https://static.indienova.com/assets/images/QR_WeChat-new.jpg" data-lightbox="image" class="si-wechat"><span class="ts-icon"><i class="icon-cn-wechat"></i></span><span class="ts-text">indienova</span></a></li>
+                            <li><a data-hover-width="409" style="width: 40px;" href="https://static.indienova.com/assets/images/QR_QQ_3.jpg" data-lightbox="image" class="si-qq"><span class="ts-icon"><i class="icon-cn-qq"></i></span><span class="ts-text">QQ 群：484558766 (满), 651728262, 438069902, 695554827</span></a></li>
+                            <li><a data-hover-width="104" style="width: 40px;" href="http://zhuanlan.zhihu.com/indienova" target="new" class="si-intensedebate"><span class="ts-icon"><i class="icon-cn-zhihu"></i></span><span class="ts-text">知乎专栏</span></a></li>
+                            <li><a data-hover-width="113" style="width: 40px;" href="https://store.steampowered.com/publisher/indienova" target="new" class="si-appstore"><span class="ts-icon"><i class="icon-steam"></i></span><span class="ts-text">indienova</span></a></li>
+                            <li><a data-hover-width="113" style="width: 40px;" href="https://www.facebook.com/Indienova-1689611754692764/" target="new" class="si-facebook"><span class="ts-icon"><i class="icon-facebook"></i></span><span class="ts-text">Facebook</span></a></li>
+                            <li><a data-hover-width="94" style="width: 40px;" href="https://twitter.com/indienovacn" target="new" class="si-twitter"><span class="ts-icon"><i class="icon-twitter"></i></span><span class="ts-text">Twitter</span></a></li>
+                            <li><a data-hover-width="187" style="width: 40px;" href="https://indienova.com/sp/gameDevResource#" class="si-email3"><span class="ts-icon"><i class="icon-email3"></i></span><span class="ts-text">info(at)indienova.com</span></a></li>
+                        </ul>
+                    </div><!-- #top-social end -->
+
+                </div>
+
+            </div>
+
+        </div>
+    
+    <!-- Header
+    ============================================= -->
+    <header id="header" class="xsticky-header">
+
+        <div id="header-wrap">
+
+            <div class="container clearfix">
+
+                <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+                <!-- Logo
+                ============================================= -->
+                <div id="logo">
+
+                    <!--<a href="/" class="standard-logo" data-dark-logo="https://static.indienova.com/assets/images/logos/indienova_dog_dark.png"><img-->
+                            <!--src="https://static.indienova.com/assets/images/logos/indienova_dog.png" alt="indienova"></a>-->
+                    <!--<a href="/" class="retina-logo" data-dark-logo="https://static.indienova.com/assets/images/logos/indienova_dog_dark@2x.png"><img-->
+                            <!--src="https://static.indienova.com/assets/images/logos/indienova_dog@2x.png" alt="indienova"></a>-->
+
+                    <a href="https://indienova.com/" class="standard-logo" data-dark-logo="https://static.indienova.com/assets/images/logos/indienova_newdark.png"><img src="./游戏开发素材 _ indienova 独立游戏_files/indienova_new.png" alt="indienova"></a>
+                    <a href="https://indienova.com/" class="retina-logo" data-dark-logo="https://static.indienova.com/assets/images/logos/indienova_newdark@2x.png"><img src="./游戏开发素材 _ indienova 独立游戏_files/indienova_new@2x.png" alt="indienova"></a>
+                </div>
+                 <!--#logo end-->
+
+                <!-- Primary Navigation
+                ============================================= -->
+                <nav id="primary-menu" class="sticky-style-2">
+
+                    <ul class="sf-js-enabled" style="touch-action: pan-y;">
+                        <li class="sub-menu">
+                            <a href="https://indienova.com/indie-game-news/" class="sf-with-ul">
+                                <div>文章<i class="icon-caret-down"></i></div>
+                            </a>
+                            <ul style="display: none;">
+                                <li><a href="https://indienova.com/channel/news"><div><i class="icon-note"></i>资讯</div></a></li>
+                                <li><a href="https://indienova.com/channel/game"><div><i class="icon-line2-fire"></i>前瞻</div></a></li>
+                                <li><a href="https://indienova.com/channel/reviews"><div><i class="icon-pen"></i>评测</div></a></li>
+                                <li><a href="https://indienova.com/channel/culture"><div><i class="icon-bulb"></i>漫谈</div></a></li>
+                            </ul>
+                        </li>
+
+                        <li class="sub-menu">
+                            <a href="https://indienova.com/column" class="sf-with-ul">
+                                <div>专题<i class="icon-caret-down"></i></div>
+                            </a>
+                            <ul style="display: none;">
+
+                                <!--游戏推荐-->
+                                <li class="sub-menu">
+                                    <a href="https://indienova.com/sp/gameDevResource#" class="sf-with-ul"><div><i class="icon-line-paper-stack"></i> 游戏推荐</div></a>
+                                    <ul style="display: none;">
+                                        <li><a href="https://indienova.com/column/29"><div><i class="icon-line-paper-stack"></i>一周值得关注的发售作品</div></a></li>
+                                        <li><a href="https://indienova.com/column/41"><div><i class="icon-line-paper-stack"></i>诺娃速递</div></a></li>
+                                        <li><a href="https://indienova.com/column/43"><div><i class="icon-line-paper-stack"></i>周末游戏视频集锦</div></a></li>
+                                        <li><a href="https://indienova.com/column/45"><div><i class="icon-line-paper-stack"></i>每月媒体评分</div></a></li>
+                                        <li><a href="https://indienova.com/column/42"><div><i class="icon-line-paper-stack"></i>Apple Arcade</div></a></li>
+                                        <li><a href="https://indienova.com/column/39"><div><i class="icon-line-paper-stack"></i>年度最佳游戏</div></a></li>
+                                        <li><a href="https://indienova.com/column/1"><div><i class="icon-line-paper-stack"></i>Indie Focus 近期新游</div></a></li>
+                                        <li><a href="https://indienova.com/column/8"><div><i class="icon-line-paper-stack"></i>indienova Picks 精选</div></a></li>
+                                    </ul>
+                                </li>
+
+                                <!--游戏评论-->
+                                <li class="sub-menu">
+                                    <a href="https://indienova.com/sp/gameDevResource#" class="sf-with-ul"><div><i class="icon-line-paper-stack"></i> 游戏评论</div></a>
+                                    <ul style="display: none;">
+                                        <li><a href="https://indienova.com/column/6"><div><i class="icon-line-paper-stack"></i>游必有方 Podcast</div></a></li>
+                                        <li><a href="https://indienova.com/column/3"><div><i class="icon-line-paper-stack"></i>独立游戏潮（RED）</div></a></li>
+                                    </ul>
+                                </li>
+
+
+                                <!--游戏开发专题-->
+                                <li class="sub-menu">
+                                    <a href="https://indienova.com/sp/gameDevResource#" class="sf-with-ul"><div><i class="icon-line-paper-stack"></i> 游戏开发专题</div></a>
+                                    <ul style="display: none;">
+                                        <li><a href="https://indienova.com/column/15"><div><i class="icon-line-paper-stack"></i>游戏设计模式</div></a></li>
+                                        <li><a href="https://indienova.com/column/14"><div><i class="icon-line-paper-stack"></i>Roguelike 开发</div></a></li>
+                                        <li><a href="https://indienova.com/column/7"><div><i class="icon-line-paper-stack"></i>GMS 中文教程</div></a></li>
+                                    </ul>
+                                </li>
+
+                                <!--游戏设计专题-->
+                                <li class="sub-menu">
+                                    <a href="https://indienova.com/sp/gameDevResource#" class="sf-with-ul"><div><i class="icon-line-paper-stack"></i> 游戏设计专题</div></a>
+                                    <ul style="display: none;">
+                                        <li><a href="https://indienova.com/column/10"><div><i class="icon-line-paper-stack"></i>游戏与所有</div></a></li>
+                                        <li><a href="https://indienova.com/column/33"><div><i class="icon-line-paper-stack"></i>让人眼前一亮的游戏设计</div></a></li>
+                                        <li><a href="https://indienova.com/column/17"><div><i class="icon-line-paper-stack"></i>游戏音乐分析</div></a></li>
+                                        <li><a href="https://indienova.com/column/4"><div><i class="icon-line-paper-stack"></i>游戏情感设计</div></a></li>
+                                        <li><a href="https://indienova.com/column/22"><div><i class="icon-line-paper-stack"></i>游戏相关书籍</div></a></li>
+                                        <li><a href="https://indienova.com/column/11"><div><i class="icon-line-paper-stack"></i>游戏设计课程笔记</div></a></li>
+                                        <li><a href="https://indienova.com/column/24"><div><i class="icon-line-paper-stack"></i>游戏设计工具</div></a></li>
+                                        <li><a href="https://indienova.com/column/26"><div><i class="icon-line-paper-stack"></i>游戏设计灵感</div></a></li>
+                                        <li><a href="https://indienova.com/column/27"><div><i class="icon-line-paper-stack"></i>设计师谈设计</div></a></li>
+                                        <li><a href="https://indienova.com/column/28"><div><i class="icon-line-paper-stack"></i>游戏研究方法</div></a></li>
+                                        <li><a href="https://indienova.com/column/38"><div><i class="icon-line-paper-stack"></i>功能游戏</div></a></li>
+                                        <li><a href="https://indienova.com/column/9"><div><i class="icon-line-paper-stack"></i>游戏设计专业院校</div></a></li>
+                                        <li><a href="https://indienova.com/column/19"><div><i class="icon-line-paper-stack"></i>像素课堂</div></a></li>
+                                    </ul>
+                                </li>
+
+                                <!--游戏文化专题-->
+                                <li class="sub-menu">
+                                    <a href="https://indienova.com/sp/gameDevResource#" class="sf-with-ul"><div><i class="icon-line-paper-stack"></i> 游戏文化专题</div></a>
+                                    <ul style="display: none;">
+                                        <li><a href="https://indienova.com/column/23"><div><i class="icon-line-paper-stack"></i>工作室访谈</div></a></li>
+                                        <li><a href="https://indienova.com/column/5"><div><i class="icon-line-paper-stack"></i>indie Figure 游戏人</div></a></li>
+                                        <li><a href="https://indienova.com/column/12"><div><i class="icon-line-paper-stack"></i>Supply 周末补给站</div></a></li>
+                                        <li><a href="https://indienova.com/column/44"><div><i class="icon-line-paper-stack"></i>游戏艺术家</div></a></li>
+                                        <li><a href="https://indienova.com/column/18"><div><i class="icon-line-paper-stack"></i>独立游戏音乐欣赏</div></a></li>
+                                        <li><a href="https://indienova.com/column/21"><div><i class="icon-line-paper-stack"></i>游戏瑰宝</div></a></li>
+                                        <li><a href="https://indienova.com/column/16"><div><i class="icon-line-paper-stack"></i>电子 RPG 小史</div></a></li>
+                                        <li><a href="https://indienova.com/column/2"><div><i class="icon-line-paper-stack"></i>ALT. CTRL. GAMING</div></a></li>
+                                    </ul>
+                                </li>
+
+                                <!--Game Jam-->
+                                <li class="sub-menu">
+                                    <a href="https://indienova.com/sp/gameDevResource#" class="sf-with-ul"><div><i class="icon-line-paper-stack"></i> Game Jam</div></a>
+                                    <ul style="display: none;">
+                                        <li><a href="https://indienova.com/column/31"><div><i class="icon-line-paper-stack"></i>Ludum Dare</div></a></li>
+                                        <li><a href="https://indienova.com/column/13"><div><i class="icon-line-paper-stack"></i>Global Game Jam</div></a></li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </li>
+
+                        <li class="sub-menu">
+                            <a href="https://indienova.com/indie-game-development/" class="sf-with-ul">
+                                <div>开发<i class="icon-caret-down"></i></div>
+                            </a>
+                            <ul style="display: none;">
+                                <li><a href="https://indienova.com/channel/engine"><div><i class="icon-line2-rocket"></i>引擎</div></a></li>
+                                <li><a href="https://indienova.com/channel/design"><div><i class="icon-atom"></i>设计</div></a></li>
+                                <li><a href="https://indienova.com/channel/programming"><div><i class="icon-line2-screen-desktop"></i>编程</div></a></li>
+                                <li><a href="https://indienova.com/channel/software"><div><i class="icon-line2-wrench"></i>工具</div></a></li>
+                                <li><a href="https://indienova.com/sp/gameDevResource"><div><i class="icon-line2-globe"></i>资源</div></a></li>
+                                <li><a href="https://indienova.com/resource"><div><i class="icon-line-box"></i>素材</div></a></li>
+                            </ul>
+                        </li>
+                        <li class="sub-menu">
+                            <a href="https://indienova.com/usergames" class="sf-with-ul">
+                                <div>游戏<i class="icon-caret-down"></i></div>
+                            </a>
+                            <ul style="display: none;">
+                                <li><a href="https://indienova.com/usergames">
+                                    <div><i class="icon-line2-ghost"></i> 会员开发游戏库</div>
+                                </a></li>
+
+                                <li class="sub-menu">
+                                    <a href="https://indienova.com/gamedb" class="sf-with-ul"><div><i class="icon-cn-pacman"></i> GameDB 游戏库</div></a>
+                                    <ul style="display: none;">
+                                        <li><a href="https://indienova.com/gamedb"><div><i class="icon-cn-pacman"></i> GameDB 游戏库</div></a></li>
+                                        <li><a href="https://indienova.com/gamedb/platform/win/p/1"><i class="icon-platform-win2"></i> Windows</a></li>
+                                        <li><a href="https://indienova.com/gamedb/platform/nintendo-switch/p/1"><i class="icon-console-switch"></i> Switch</a></li>
+                                        <li><a href="https://indienova.com/gamedb/platform/ps4--1/p/1"><i class="icon-console-ps"></i> PS4</a></li>
+                                        <li><a href="https://indienova.com/gamedb/platform/ios/p/1"><i class="icon-platform-mac2"></i> iOS</a></li>
+                                        <li><a href="https://indienova.com/gamedb/platform/xboxone/p/1"><i class="icon-console-xbox"></i> XBOX One</a></li>
+                                        <li><a href="https://indienova.com/gamedb/platform/android/p/1"><i class="icon-platform-android2"></i> Android</a></li>
+                                        <li><a href="https://indienova.com/gamedb/platform/wechat-mini-game/p/1"><i class="icon-cn-wechat"></i> 微信小游戏</a></li>
+                                        <li><a href="https://indienova.com/gamedb/platform/3ds/p/1"><i class="icon-console-nintendo"></i> 3DS</a></li>
+                                        <li><a href="https://indienova.com/gamedb/platform/psvita/p/1"><i class="icon-console-ps"></i> PS Vita</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="sub-menu">
+                                    <a href="https://indienova.com/steam" class="sf-with-ul"><div><i class="icon-steam"></i> Steam 独立游戏库</div></a>
+                                    <ul style="display: none;">
+                                        <li><a href="https://indienova.com/steam"><div><i class="icon-steam"></i> Steam 独立游戏库</div></a></li>
+                                        <li><a href="https://indienova.com/sp/trends"><div><i class="icon-line2-users"></i> 会员 Steam 数据统计</div></a></li>
+                                        <li><a href="https://indienova.com/steam/chinese"><div class="text-danger"><i class="icon-steam"></i> 华人 Steam 独立游戏</div></a></li>
+                                        <li><a href="https://indienova.com/steam/greenlight"><div class="text-success"><i class="icon-steam"></i> 华人 Steam 绿光列表</div></a></li>
+                                        <li><a href="https://indienova.com/steam/recommended"><div><i class="icon-like"></i> 推荐 Steam 游戏</div></a></li>
+                                        <li><a href="https://indienova.com/steam/mustbuy"><div><i class="icon-diamond2"></i> 必买 Steam 游戏</div></a></li>
+                                        <li><a href="https://indienova.com/corp/steamkey"><div><i class="icon-steam"></i> 免费 Steam Key</div></a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a href="https://indienova.com/corp/ggjgamelist" target="_blank"><div><i class="icon-line2-ghost"></i> GGJ 中国区作品展示</div></a></li>
+                                <li><a href="https://indienova.com/corp/gutenberg" target="_blank"><div><i class="icon-line-globe"></i> 游戏古登堡官中计划</div></a></li>
+                                <li><a href="https://indienova.com/corp/publishing" target="_blank"><div><i class="icon-line-globe"></i> indienova 游戏发行</div></a></li>
+                            </ul>
+                        </li>
+                        <li class="mega-menu"><a href="https://indienova.com/blogs/all"><div>日志</div></a></li>
+                        <li><a href="https://indienova.com/groups"><div>小组</div></a></li>
+                        <li><a href="https://indienova.com/novapress"><div>钥玩<sup class="text-red"><i class="icon-star3"></i></sup></div></a></li>
+                    </ul>
+
+                    <!-- Top Search
+                    ============================================= -->
+                    <div id="top-search">
+                        <a href="https://indienova.com/sp/gameDevResource#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
+                                                        <form action="https://indienova.com/search" enctype="application/x-www-form-urlencoded" method="post">
+                                    <input type="text" name="q" class="form-control" value="" placeholder="搜索网站内容关键字 ...">
+                                </form>
+                            
+                                            </div>
+                    <!-- #top-search end -->
+
+                </nav>
+                <!-- #primary-menu end -->
+            </div>
+                    </div>
+
+    </header><!-- #header end -->
+        
+        
+        
+        
+        
+        
+                    <!-- Sub Menu ============================================= -->
+                <div id="page-menu">
+        <div id="page-menu-wrap" class="for-indienova-user">
+            <div class="container clearfix">
+                <nav>
+                    <ul>
+                        <li><a href="https://indienova.com/indie-game-development/">全部</a></li>
+                        <li><a href="https://indienova.com/channel/engine">引擎</a></li>
+                        <li><a href="https://indienova.com/channel/design">设计</a></li>
+                        <li><a href="https://indienova.com/channel/programming">编程</a></li>
+                        <li><a href="https://indienova.com/channel/software">工具</a></li>
+                        <li class="current"><a href="https://indienova.com/sp/gameDevResource">资源</a></li>
+                    </ul>
+                </nav>
+                <div id="page-submenu-trigger"><i class="icon-reorder"></i></div>
+            </div>
+        </div>
+    </div>
+        
+        <!-- Content ============================================= -->
+        <section id="content">
+            <div class="content-wrap">
+                                                                                                                                                                                                                                        <section id="page-title" class="page-title-mini indienova-channel-title-mini bottommargin-sm">
+    <div class="container clearfix">
+        <h1>开发：资源 <small>（最后更新日期：2017-8-22）</small></h1>
+        <ol class="breadcrumb">
+            <li><a href="https://indienova.com/">indienova</a></li>
+            <li><a href="https://indienova.com/indie-game-development/">开发</a></li><li>资源</li>        </ol>
+    </div>
+</section>
+
+<div class="container">
+    <div class="row">
+        <div class="sidebar col-lg-12">
+            <div id="side-title-image" class="hidden-xs hidden-sm hidden-ms">
+                <a id="indexscroll" href="https://indienova.com/sp/gameDevResource#indexlist"><img style="width:100%;" src="./游戏开发素材 _ indienova 独立游戏_files/resourcebanner.png" class="title-image img-responsive"></a>
+            </div>
+        </div>
+        <div class="col-lg-12  postcontent clearfix indienova-post-content">
+            <article class="clearfix">
+                <div class="single-post indienova-single-post">
+                    <p class="label label-danger">注意：部分网站可能需要科学上网才能访问</p>
+                    <h2 id="indexlist">目录</h2>
+                    <script>
+                        $(document).ready(function(){
+                            $("#indexscroll").click(function(){
+                                var y = $("#indexlist").offset().top - 120;
+                                $('html,body').animate({scrollTop: ''+y+'px'},10);
+                            })
+                            $(".indexlist ._1st").click(function(){
+                                var x = $(this).attr("class").split(" ")[1]; //获取id
+                                $("#tablist a[href= '#"+x+"']").click();
+                            })
+                            $(".indexlist ul a").click(function(){
+                                var x = $(this).parent().parent().parent().find("._1st").attr("class").split(" ")[1]; //获取id
+                                $("#tablist a[href= '#"+x+"']").click();
+                                var y = $(""+$(this).attr("href")+"").offset().top - 120;
+                                $('html,body').animate({scrollTop: ''+y+'px'},10);
+                            })
+                        })
+
+                    </script>
+                    <ul class="indexlist">
+                        <li>
+                            <a class="_1st design" href="https://indienova.com/sp/gameDevResource#tablist">美术</a>
+                            <ul>
+                                <li><a href="https://indienova.com/sp/gameDevResource#%E7%B4%A0%E6%9D%90%E5%8D%A0%E4%BD%8D%E7%AC%A6">素材/占位符</a></li>
+                                <li><a href="https://indienova.com/sp/gameDevResource#%E7%B2%BE%E7%81%B5%E5%B8%A7%E5%9B%BE%E7%BC%96%E8%BE%91%E5%B7%A5%E5%85%B7">精灵/帧图编辑工具</a></li>
+                                <li><a href="https://indienova.com/sp/gameDevResource#%E4%BD%8D%E5%9B%BE%E5%8E%8B%E7%BC%A9">位图压缩</a></li>
+                                <li><a href="https://indienova.com/sp/gameDevResource#%E6%9D%90%E8%B4%A8%E5%B7%A5%E5%85%B7">材质工具</a></li>
+                                <li><a href="https://indienova.com/sp/gameDevResource#%E8%A7%92%E8%89%B2%E7%94%9F%E6%88%90%E5%99%A8">角色生成器</a></li>
+                                <li><a href="https://indienova.com/sp/gameDevResource#%E6%96%B9%E5%9D%97%E8%B4%B4%E5%9B%BE%E5%85%B3%E5%8D%A1%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8">方块贴图/关卡地图编辑器</a></li>
+                                <li><a href="https://indienova.com/sp/gameDevResource#%E5%8A%A8%E7%94%BB">动画</a></li>
+                                <li><a href="https://indienova.com/sp/gameDevResource#%E7%9F%A2%E9%87%8F%E5%9B%BE%E8%B4%B4%E5%9B%BE%E7%BC%96%E8%BE%91">矢量图/贴图编辑</a></li>
+                                <li><a href="https://indienova.com/sp/gameDevResource#%E6%A8%A1%E5%9E%8B">模型</a></li>
+                                <li><a href="https://indienova.com/sp/gameDevResource#%E5%9C%B0%E5%BD%A2%E7%94%9F%E6%88%90%E5%99%A8">地形生成器</a></li>
+                                <li><a href="https://indienova.com/sp/gameDevResource#%E4%BD%93%E7%B4%A0%E7%BC%96%E8%BE%91%E5%99%A8">体素编辑器</a></li>
+                                <li><a href="https://indienova.com/sp/gameDevResource#%E5%83%8F%E7%B4%A0%E7%94%BB%E6%95%99%E7%A8%8B">像素画教程</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="_1st program" href="https://indienova.com/sp/gameDevResource#tablist">程序</a>
+                            <ul>
+                                <li><a href="https://indienova.com/sp/gameDevResource#2d">2D</a></li>
+                                <li><a href="https://indienova.com/sp/gameDevResource#3d">3D</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="_1st sound" href="https://indienova.com/sp/gameDevResource#tablist">音频</a>
+                            <ul>
+                                <li><a href="https://indienova.com/sp/gameDevResource#%E8%B5%84%E6%BA%90%E5%8C%85">资源包</a></li>
+                                <li><a href="https://indienova.com/sp/gameDevResource#%E9%9F%B3%E4%B9%90%E9%9F%B3%E9%A2%91%E7%BC%96%E8%BE%91%E5%99%A8">音乐/音频编辑器</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="_1st boardgame" href="https://indienova.com/sp/gameDevResource#tablist">桌游</a>
+                        </li>
+                        <li>
+                            <a class="_1st recommended" href="https://indienova.com/sp/gameDevResource#tablist">推荐</a>
+                            <ul>
+                                <li><a href="https://indienova.com/sp/gameDevResource#%E5%8D%9A%E5%AE%A2%E4%B8%8E%E6%96%87%E7%AB%A0%E9%93%BE%E6%8E%A5">博客与文章链接</a></li>
+                                <li><a href="https://indienova.com/sp/gameDevResource#%E4%B9%A6%E7%B1%8D">书籍</a></li>
+                                <li><a href="https://indienova.com/sp/gameDevResource#%E6%9D%82%E5%BF%97">杂志</a></li>
+                                <li><a href="https://indienova.com/sp/gameDevResource#%E8%A7%86%E9%A2%91%E5%8D%9A%E5%AE%A2">视频/博客</a></li>
+                                <li><a href="https://indienova.com/sp/gameDevResource#%E7%9F%A5%E4%B9%8E%E4%B8%93%E6%A0%8F">知乎专栏</a></li>
+                                <li><a href="https://indienova.com/sp/gameDevResource#gamejams">Game Jams</a></li>
+                                <li><a href="https://indienova.com/sp/gameDevResource#%E5%AE%8C%E6%95%B4%E6%B8%B8%E6%88%8F%E6%BA%90%E7%A0%81">完整游戏源码</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="_1st ads" href="https://indienova.com/sp/gameDevResource#tablist">广告</a>
+                        </li>
+                        <li>
+                            <a class="_1st trial" href="https://indienova.com/sp/gameDevResource#tablist">教程</a>
+                            <ul>
+                                <li><a href="https://indienova.com/sp/gameDevResource#%E9%80%9A%E7%94%A8%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91">通用游戏开发</a></li>
+                                <li><a href="https://indienova.com/sp/gameDevResource#%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6">计算机图形学</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="">
+        <div class="tabs tabs-bb tabs-justify clearfix ui-tabs ui-widget ui-widget-content ui-corner-all" id="tab-special-one">
+
+            <div class="col-lg-12 postcontent clearfix indienova-post-content">
+
+                <article class="clearfix">
+                    <div class="single-post indienova-single-post">
+                        <p><a href="https://github.com/sindresorhus/awesome"><img src="./游戏开发素材 _ indienova 独立游戏_files/badge.svg" alt="Awesome"></a> </p>
+                        <p>由了不起的人为了不起的人而创</p>
+
+                        
+                        <ul id="tablist" class="nav nav-tabs tab-nav ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all" role="tablist">
+                            <li role="tab" class="active ui-state-default ui-corner-top ui-tabs-active ui-state-active" tabindex="0" aria-controls="design" aria-labelledby="ui-id-1" aria-selected="true" style="width: 158px;"><a href="https://indienova.com/sp/gameDevResource#design" role="presentation" data-toggle="tab" class="ui-tabs-anchor" tabindex="-1" id="ui-id-1">美术</a></li>
+                            <li role="tab" class="ui-state-default ui-corner-top" tabindex="-1" aria-controls="program" aria-labelledby="ui-id-2" aria-selected="false" style="width: 158px;"><a href="https://indienova.com/sp/gameDevResource#program" role="presentation" data-toggle="tab" class="ui-tabs-anchor" tabindex="-1" id="ui-id-2">程序</a></li>
+                            <li role="tab" class="ui-state-default ui-corner-top" tabindex="-1" aria-controls="sound" aria-labelledby="ui-id-3" aria-selected="false" style="width: 158px;"><a href="https://indienova.com/sp/gameDevResource#sound" role="presentation" data-toggle="tab" class="ui-tabs-anchor" tabindex="-1" id="ui-id-3">音频</a></li>
+                            <li role="tab" class="ui-state-default ui-corner-top" tabindex="-1" aria-controls="boardgame" aria-labelledby="ui-id-4" aria-selected="false" style="width: 158px;"><a href="https://indienova.com/sp/gameDevResource#boardgame" role="presentation" data-toggle="tab" class="ui-tabs-anchor" tabindex="-1" id="ui-id-4">桌游</a></li>
+                            <li role="tab" class="ui-state-default ui-corner-top" tabindex="-1" aria-controls="recommended" aria-labelledby="ui-id-5" aria-selected="false" style="width: 158px;"><a href="https://indienova.com/sp/gameDevResource#recommended" role="presentation" data-toggle="tab" class="ui-tabs-anchor" tabindex="-1" id="ui-id-5">推荐</a></li>
+                            <li role="tab" class="ui-state-default ui-corner-top" tabindex="-1" aria-controls="ads" aria-labelledby="ui-id-6" aria-selected="false" style="width: 158px;"><a href="https://indienova.com/sp/gameDevResource#ads" role="presentation" data-toggle="tab" class="ui-tabs-anchor" tabindex="-1" id="ui-id-6">广告</a></li>
+                            <li role="tab" class="ui-state-default ui-corner-top" tabindex="-1" aria-controls="trial" aria-labelledby="ui-id-7" aria-selected="false" style="width: 158px;"><a href="https://indienova.com/sp/gameDevResource#trial" role="presentation" data-toggle="tab" class="ui-tabs-anchor" tabindex="-1" id="ui-id-7">教程</a></li>
+                        </ul>
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane active ui-tabs-panel ui-widget-content ui-corner-bottom" id="design" aria-labelledby="ui-id-1" aria-expanded="true" aria-hidden="false">
+                                <h4 id="美术">美术 <sup><span class="text-danger">new</span></sup></h4>
+
+                                <p><em>卓绝的游戏美术资源和编辑工具，让朴实无华的游戏变得犹如毕加索的艺术创作。</em></p>
+
+                                <h5 id="素材占位符">素材/占位符 <sup><span class="text-danger">new</span></sup></h5>
+
+                                <ul>
+                                    <li><a href="http://graphicburger.com/mobile-game-gui/">2D 卡通风格移动端游戏UI包</a>
+
+                                        <ul>
+                                            <li>卡通风格的用户界面素材包。包含多图层的psd格式文件。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://7soul1.deviantart.com/art/420-Pixel-Art-Icons-for-RPG-129892453">用于 RPG 游戏的 420 像素图标</a>
+
+                                        <ul>
+                                            <li>免费商用授权。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.textures.com/">CG材质/CGTextures</a>
+
+                                        <ul>
+                                            <li>材质资源大合集。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://www.gamedevmarket.net/">GameDev市场</a>
+
+                                        <ul>
+                                            <li>社区驱动的市场，为独立游戏开发者和天赋卓绝的素材设计师建立桥梁。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://game-icons.net/">游戏图标合集/Games-Icons Set</a>
+
+                                        <ul>
+                                            <li>可以免费使用的游戏图标。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://iconmonstr.com/">图标怪兽/Iconmonstr</a>
+
+                                        <ul>
+                                            <li>另一个免费游戏图标资源站。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://openclipart.org/">开源剪贴画/OpenClipart</a>
+
+                                        <ul>
+                                            <li>免费剪贴画合集。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://opengameart.org/">开源游戏艺术/OpenGameArt</a>
+
+                                        <ul>
+                                            <li>用于免费游戏项目的媒体资源库。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.plaintextures.com/">PlainTextures</a>
+
+                                        <ul>
+                                            <li>素材资源网站。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.reinerstilesets.de/">莱纳的瓷砖/Reiner’s Tilesets</a>
+
+                                        <ul>
+                                            <li>一个有关免费2D/3D图形资源的博客。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://sketchfab.com/">Sketchfab</a>
+
+                                        <ul>
+                                            <li>发布和嵌入可交互的3D模型。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.widgetworx.com/spritelib/">SpriteLib</a>
+
+                                        <ul>
+                                            <li>精灵(sprites)资源合集。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.textureking.com/">素材之王/TextureKing</a>
+
+                                        <ul>
+                                            <li>素材资源网站。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://arnaud.ile.nc/cantree/generator.php">树木生成器/Tree Generator</a>
+
+                                        <ul>
+                                            <li>在线生成树木的图形。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://upan.do/">Upando</a>
+
+                                        <ul>
+                                            <li>拥有丰富的游戏开发资源的市场。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.vecteezy.com/">Vecteezy</a>
+
+                                        <ul>
+                                            <li>免费矢量艺术。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://www.yobi3d.com/">Yobi3D</a>
+
+                                        <ul>
+                                            <li>免费3D模型搜索引擎。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://fontlibrary.org/">开源字体库</a>
+
+                                        <ul>
+                                            <li>开源字体库。</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.cgtrader.com/free-3d-models">cg-trader free models</a>
+                                        <ul>
+                                            <li>3D 模型库，可用于 CG 设计和其他艺术作品，包含超过 150000 个免费的 3D 模型。</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="http://%20//www.spriters-resource.com/">精灵资源收集</a>
+                                        <ul>
+                                            <li>按机种和来源分类的精灵资源收集，也包括一些用户上传内容。使用时注意版权许可，可以用作美术参考。</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                                <h5 id="精灵帧图编辑工具">精灵/帧图编辑工具</h5>
+
+                                <ul>
+                                    <li><a href="http://www.aseprite.org/">Aseprite</a>
+
+                                        <ul>
+                                            <li>用于精灵动图和像素画编辑的工具。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.humanbalance.net/gale/us/">GraphicsGale</a>
+
+                                        <ul>
+                                            <li>便于使用的动画编辑工具。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.piskelapp.com/">PiskelApp</a>
+
+                                        <ul>
+                                            <li>免费的在线像素画/帧图编辑工具。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://pyxeledit.com/">PyxelEdit</a>
+
+                                        <ul>
+                                            <li>以使用乐趣和便于创作方格贴图，关卡地图和动画为设计宗旨的像素画编辑器。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://renderhjs.net/shoebox/">ShoeBox</a>
+
+                                        <ul>
+                                            <li>ShoeBox 是一款以 Adobe Air 为基础的免费应用，用于在 windows 或者 Max OSX 平台上创作游戏和 UI 相关的资源。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://kleber-swf.com/app/spritesheet-preview/">Spritesheet Preview</a>
+
+                                        <ul>
+                                            <li>一个使用简单的预览精灵图的免费工具。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://www.codeandweb.com/texturepacker">TexturePacker</a>
+
+                                        <ul>
+                                            <li>卓绝的帧图编辑器。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.fancynode.com.cn/bigshear">BigShear</a>
+
+                                        <ul>
+                                            <li>基于Adobe Air的纹理分割合并小工具，国人出品。</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                                <h5 id="位图压缩">位图压缩</h5>
+
+                                <ul>
+                                    <li><a href="http://pngmini.com/">ImageAlpha</a><br>
+                                        <ul>
+                                            <li>图片压缩程序 pngqunt 和其他几个工具的 Mac OSX 平台图形界面前端。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://kraken.io/">Kraken.io</a>
+
+                                        <ul>
+                                            <li>使用顶级算法，健壮，闪速的图片优化与压缩程序。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://pnggauntlet.com/">PNGGauntlet</a>
+
+                                        <ul>
+                                            <li>为加快站点速度压缩图片。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://pngquant.org/PNGoo.0.1.1.zip">PNGoo</a>
+
+                                        <ul>
+                                            <li>带批处理功能的 pngqunt 程序 Windows 平台图形界面前端。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://nukesaq88.github.io/Pngyu/">Pngyu</a>
+
+                                        <ul>
+                                            <li>简单的 PNG 图片压缩工具, 同样使用 pngqunt 作为压缩引擎，拥有 window 和 Mac OXS 版本。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.fnordware.com/superpng/">SuperPNG Photoshop plug-in</a><br>
+                                        <ul>
+                                            <li>拥有 Mac 和 Windows 版本. 为优化网页压缩图片。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://tinypng.com/">TinyPNG</a>
+
+                                        <ul>
+                                            <li>高级 png 格式图片无损压缩软件，能够保留 alpha 通道。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://www.websiteplanet.com/zh-hans/webtools/imagecompressor/">Image Compressor</a><br>
+                                        <ul>
+                                            <li>Websiteplanet提供的位图压缩工具，性能强大，能够保留 alpha 通道。</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                                <h5 id="材质工具">材质工具</h5>
+
+                                <ul>
+                                    <li><a href="https://www.filterforge.com/">FilterForge</a>
+
+                                        <ul>
+                                            <li>用于自定义滤镜的 Photoshop 插件。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.pixplant.com/">PixPlant</a>
+
+                                        <ul>
+                                            <li>智能 3D 材质工具，能够创建出高质量的法线贴图，置换贴图和高光贴图，还能够利用照片无缝生产材质。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.seamlesstexturegenerator.com/">STG</a>
+
+                                        <ul>
+                                            <li>一个能够利用照片快捷而轻松地创建出专业的无缝网格材质的工具。</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                                <h5 id="角色生成器">角色生成器</h5>
+
+                                <ul>
+                                    <li><a href="http://charas-project.net/index.php">Charas</a>
+                                        <ul>
+                                            <li>Charas 是一款用于 RPG Maker 的角色生成器。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.famitsu.com/freegame/tool/chibi/index1.html">Famistu Chibi Maker</a>
+
+                                        <ul>
+                                            <li>一款生成二头身游戏角色的在线工具。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.geocities.jp/kurororo4/looseleaf/">Loose Leaf</a>
+
+                                        <ul>
+                                            <li>一款生成二头身游戏角色的在线工具。</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                                <h5 id="方块贴图关卡地图编辑器">方块贴图/关卡地图编辑器</h5>
+
+                                <ul>
+                                    <li><a href="http://www.arraypainter.com/">ArrayPainter</a>
+
+                                        <ul>
+                                            <li>Array Painter 是一款能够以最轻松快捷的方式创建用于游戏地图数据的2维数组的工具软件。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://pixelatto.com/">AutoTileGen</a>
+
+                                        <ul>
+                                            <li>AutoTileGen 是一款为 2D 游戏地形自动生产方块贴图的工具软件。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.ogmoeditor.com/">OGMO Editor</a>
+
+                                        <ul>
+                                            <li>通用关卡编辑器。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://overlap2d.com/">Overlap2D</a>
+
+                                        <ul>
+                                            <li>开源的 2D 关卡与 UI 编辑软件，号称除去写代码外唯一需要用到的 2D 游戏开发工具。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://tilemap.co.uk/mappy.php">Mappy</a>
+
+                                        <ul>
+                                            <li>免费的网格地图编辑器。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.mapeditor.org/">Tiled</a>
+
+                                        <ul>
+                                            <li>免费，简单，灵活的网格地图编辑器。</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                                <h5 id="动画">动画</h5>
+
+                                <ul>
+                                    <li><a href="http://loopengo.free.fr/">Fusion Character Animator</a>
+
+                                        <ul>
+                                            <li>为 Clickteam Fusion 2.5 引擎开发的小型工具，可以供开发者用来设计 2D 角色精灵图的动画。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://esotericsoftware.com/">Spine</a>
+
+                                        <ul>
+                                            <li>Spine 专注于 2D 骨骼动画技术，不仅提供高效的动画创作工作流，还允许你方便地将其集成进游戏之中。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.brashmonkey.com/spriter.htm">Spriter</a>
+
+                                        <ul>
+                                            <li>编辑精灵动画的现代工具。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://dragonbones.effecthub.com/">DragonBones</a>
+
+                                        <ul>
+                                            <li>开源的 2D 骨骼动画软件，可以用于 flash 游戏和 html5 游戏，得到过 Adobe 的开发支持，现在为国产游戏引擎 egret 的工具包套装中的一员。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://gree.github.io/lwf/">LWF</a>
+
+                                        <ul>
+                                            <li>轻量级版本的 SWF. LWF 能够播放从 HTML5, Unity, Cocos2d-x, iOS UIKit 等引擎/框架中提取的 flash 动画。</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                                <h5 id="矢量图贴图编辑">矢量图/贴图编辑</h5>
+
+                                <ul>
+                                    <li><a href="http://www.gimp.org/">Gimp</a>
+
+                                        <ul>
+                                            <li>即 GNU 图像处理程序。用于照片修润，图像绘制和处理的自由软件。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://inkscape.org/en/">Inkscape</a>
+
+                                        <ul>
+                                            <li>开源矢量图编辑软件，功能类似 Adobe Illustrator，Corel Draw，Freehand 或 Xara X。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://krita.org/">Krita</a>
+
+                                        <ul>
+                                            <li>Krita 是一款 Linux KDE 桌面环境下的程序，用于绘制草图和插画，允许设计师完成完整的数字图像创作流程。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://thebloomapp.com/">Ormr</a>
+
+                                        <ul>
+                                            <li>Ormr 是一款高性能，轻量级，跨平台的程序化图形处理软件，允许你基于图层精细调整所有执行过的操作。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.getpaint.net/">Paint.NET</a>
+
+                                        <ul>
+                                            <li>Paint.NET 是 Windows 平台上一款免费的图像照片编辑器。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.pickleeditor.com/">Pickle</a>
+
+                                        <ul>
+                                            <li>另一款像素画软件。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.pixelmator.com/">Pixelmator</a>
+
+                                        <ul>
+                                            <li>Mac OSX 平台上功能全面的图形编辑应用。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://github.com/Pixen/Pixen">Pixen</a>
+
+                                        <ul>
+                                            <li>Mac OSX 平台上的开源像素画软件。</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="https://photo-editor.canva.com/">Canva</a>
+                                        <ul>
+                                            <li>免费的在线图片编辑工具，无需 app 和额外插件，能够在网页中快速地为照片添加滤镜效果，缩放和编辑图片内容。</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                                <h5 id="模型">模型</h5>
+
+                                <ul>
+                                    <li><a href="http://www.blender.org/">Blender</a> - 开源的 3D 模型/影像 处理软件，也包含内嵌的游戏引擎。</li>
+                                    <li><a href="http://www.makehuman.org/">MakeHuman</a> - 一款开源的人体模型制作软件。</li>
+                                    <li><a href="http://pixologic.com/sculptris/">sculptris</a> - 3D 模型雕刻。</li>
+                                    <li><a href="http://www.autodesk.com/products/maya/overview">Maya</a> - 著名 3D 模型软件。</li>
+                                    <li><a href="http://www.autodesk.com/products/3ds-max/overview">3ds Max</a> - 著名 3D 模型软件。</li>
+                                    <li><a href="https://clara.io/">Clara.io</a> 在线 3D 模型编辑器。</li>
+                                </ul>
+
+                                <h5 id="地形生成器">地形生成器</h5>
+
+                                <ul>
+                                    <li><a href="http://www.artifexterra.com/">Artifex Terra</a> Windows 平台下一款 3D 地形编辑软件。</li>
+                                    <li><a href="https://entardev.wordpress.com/other-projects/canyon-terrain-editor/">Canyon Terrain
+                                        Editor</a> Windows 平台下的一款 3D 地形编辑软件，允许用户直观高效地创建与编辑拟真高质的 3D 地形文件。
+                                    </li>
+                                    <li><a href="http://nemesis.thewavelength.net/index.php?p=8">Nem TG</a> 一款功能全面丰富的免费 3D 地形编辑器。</li>
+                                    <li><a href="http://www.world-machine.com/">World Machine</a> 支持 Unity，Unreal 等引擎，功能强大丰富的 3D 地形编辑软件。
+                                    </li>
+                                </ul>
+
+                                <h5 id="体素编辑器">体素编辑器</h5>
+
+                                <ul>
+                                    <li><a href="http://voxel.codeplex.com/">MagicaVoxel</a> 一款功能全面，界面美观的体素模型编辑器。</li>
+                                    <li><a href="http://kyucon.com/qblock/">Q-Block</a> 来自日本的在线体素编辑器。</li>
+                                    <li><a href="http://sproxel.blogspot.com.br/">Sproxel</a> 一款跨平台的体素编辑器。</li>
+                                    <li><a href="https://blackflux.com/index.php">VoxelShop</a> 一款风格可爱的体素编辑器。</li>
+                                </ul>
+
+                                <h5 id="像素画教程">像素画教程</h5>
+
+                                <ul>
+                                    <li><p><a href="http://makegames.tumblr.com/post/42648699708/pixel-art-tutorial">Pixel Art Tutorial (by Derek Yu)</a></p>
+
+                                        <ul>
+                                            <li>像素画教程</li>
+                                        </ul></li>
+                                    <li><p><a href="http://danfessler.com/blog/hd-index-painting-in-photoshop">HD Index Painting in Photoshop (by Dan Fessler)</a></p>
+
+                                        <ul>
+                                            <li><p>在PS中绘制高清索引图</p></li>
+                                            <li><p><a href="http://www.danfessler.com/">作者主页</a></p></li>
+                                            <li><p><a href="http://danfessler.com/blog/hd-index-painting-in-photoshop">文章版直通车</a></p></li>
+                                            <li><p><a href="https://www.youtube.com/watch?v=7Q36EyvaYG8">视频版直通车</a></p></li>
+                                        </ul></li>
+                                    <li><a href="http://pixelartus.com/post/85312310886/retronator-no-bullshit-pixel-art-tutorial">No Bullshit Pixel Art Tutorial (by Retronator)</a>
+
+                                        <ul>
+                                            <li>绝不扯淡像素画教程</li>
+                                        </ul></li>
+                                    <li><p><a href="http://pixelation.org/index.php?topic=2076.msg161933#msg161933">Pixel Art Knowledge (by various Pixel Artists)</a></p>
+
+                                        <ul>
+                                            <li>像素画教程大合集</li>
+                                        </ul></li>
+                                    <li><a href="http://pixeljoint.com/forum/forum_posts.asp?TID=11299">Pixel Art Tutorial (by Cure)</a>
+
+                                        <ul>
+                                            <li>像素画教程</li>
+                                        </ul></li>
+                                    <li><a href="http://androidarts.com/pixtut/pixelart.htm">Pixel Art Tutorial (by Android Arts)</a>
+
+                                        <ul>
+                                            <li>像素画教程</li>
+                                        </ul></li>
+                                    <li><a href="http://danfessler.com/blog/pixel-purism-process-vs-results">Pixel Purism: Process vs Results (by Dan Fessler)</a>
+
+                                        <ul>
+                                            <li>像素画教程</li>
+                                        </ul></li>
+                                    <li><a href="http://pixel.schlet.net/">Pixelation Knowledge Repository (by Helm)</a>
+
+                                        <ul>
+                                            <li>像素艺术知识库</li>
+                                        </ul></li>
+                                    <li><a href="https://www.youtube.com/watch?v=ebF1pIxLpnU">6 Pixel Art Drawing Techniques as Video (by GDQuest)</a>
+
+                                        <ul>
+                                            <li>像素画六大技法视频版</li>
+                                        </ul></li>
+                                    <li><a href="http://pix3m.deviantart.com/art/Pixel-Art-Tutorial-What-the-heck-is-pixel-art-v1-358140540">What the Heck is Pixel Art (by Pix3M)</a>
+
+                                        <ul>
+                                            <li>像素画到底是什么</li>
+                                        </ul></li>
+                                    <li><a href="http://cyangmou.deviantart.com/art/Pixel-Art-Process-413418385">Pixel Art Process - or 8 steps to a polished result (by Cyangmou)</a>
+
+                                        <ul>
+                                            <li>像素画处理（8步美化像素画）</li>
+                                        </ul></li>
+                                    <li><a href="http://antonkudin.tumblr.com/post/110198230014/pixellighting">Perfect Pixel Art with Specular and Bump Lighting in Unity (by Anton Kudin)</a>
+
+                                        <ul>
+                                            <li>在 Unity 中运用镜面光与凹凸贴图创建完美像素画</li>
+                                        </ul></li>
+                                    <li><a href="http://www.dennisbusch.de/knowhow.php">ISOmetric Pixel Art Cheat Sheet (by Dennis Busch)</a>
+
+                                        <ul>
+                                            <li>等轴立体像素画技法小抄</li>
+                                        </ul></li>
+                                    <li><a href="https://www.youtube.com/playlist?list=PLG0tvJ_jRDIVqRSjelh_uyuZpREN-T4ZF">How To Pixel Art Tutorial as Video (by Christopher Yabsley)</a>
+
+                                        <ul>
+                                            <li>如何绘制像素画视频版</li>
+                                        </ul></li>
+                                    <li><a href="https://www.youtube.com/playlist?list=PLG0tvJ_jRDIXVXKmOFfWtN_I58SaZEDoS">Pyxel Edit Tutorial Mini Series as Video (by Christopher Yabsley)</a>
+
+                                        <ul>
+                                            <li>像素画编辑小教程视频版</li>
+                                        </ul></li>
+                                    <li><a href="https://www.youtube.com/watch?v=PONe4IIYSnQ">GIMP Pixel Art Tool Setup Tutorial as Video (by Retronator)</a>
+
+                                        <ul>
+                                            <li>GIMP 像素工具设置教程视频版</li>
+                                        </ul></li>
+                                    <li><a href="http://unseven.tumblr.com/post/88954744136/runcycletutorial">Run Cycle Tutorial (by Glauber Kotaki)</a>
+
+                                        <ul>
+                                            <li>像素画多帧循环教程</li>
+                                        </ul></li>
+                                    <li><a href="http://finalbossblues.com/pixel-tutorials/">Pixel Art Tutorials (by finalbossblues)</a>
+
+                                        <ul>
+                                            <li>像素画教程</li>
+                                        </ul></li>
+                                    <li><a href="https://simonm-hunter.squarespace.com/tutorial/">A Little Guide to Pixel Art (by Simon Hunter)</a>
+
+                                        <ul>
+                                            <li>像素画迷你指南</li>
+                                        </ul></li>
+                                    <li><a href="http://2dwillneverdie.com/tutorial/">Secret Weapons and Tactics for Better Pixel Art (by 2D Will Never Die)</a>
+
+                                        <ul>
+                                            <li>精进像素艺术的神器秘籍</li>
+                                        </ul></li>
+                                    <li><a href="http://www.drububu.com/tutorial/index.html">Pixel Art Tutorials (by drbubu)</a>
+
+                                        <ul>
+                                            <li>像素画教程</li>
+                                        </ul></li>
+                                    <li><a href="http://purloux.com/artwork/tutorials/rundown/">Pixel Art Tutorial (by Studio Purloux)</a>
+
+                                        <ul>
+                                            <li>像素画教程</li>
+                                        </ul></li>
+                                    <li><a href="http://welcome.to.pixelart.academy/">Pixel Art Academy (by Retronator)</a>
+
+                                        <ul>
+                                            <li>像素画学院</li>
+                                        </ul></li>
+                                </ul>
+                            </div>
+                            <div role="tabpanel" class="tab-pane  ui-tabs-panel ui-widget-content ui-corner-bottom" id="program" aria-labelledby="ui-id-2" aria-expanded="false" aria-hidden="true" style="display: none;">
+                                <h4 id="程序">程序</h4>
+
+                                <p><em>游戏框架，引擎和平台合集</em></p>
+
+                                <h5 id="引擎与框架">引擎与框架</h5>
+
+                                <h5 id="2d">2D</h5>
+
+                                <ul>
+                                    <li><a href="http://2dengine.com/">Agen</a>
+
+                                        <ul>
+                                            <li>使用 lua 开发 2D 游戏的跨平台框架，兼容 iOS, Mac 和 Windows 设备。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://liballeg.org/">Allegro</a>
+
+                                        <ul>
+                                            <li>跨平台的开源游戏程序库，主要面向 C/C++ 开发者。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.andengine.org/">AndEngine</a>
+
+                                        <ul>
+                                            <li>2D 安卓游戏引擎。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://bacon2d.com/">Bacon2D</a>
+
+                                        <ul>
+                                            <li>方便的 2D 游戏开发框架，提供了多数游戏需要的表现基本游戏实体的实用 QML 元素。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://box2d.org/">Box2D</a>
+
+                                        <ul>
+                                            <li>2D 游戏物理引擎。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://github.com/netonjm/ChipmunkSharp">Chipmunk C#</a>
+
+                                        <ul>
+                                            <li>Chipmunk2D 库的 C# 引入。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://chipmunk-physics.net/">Chipmunk2D</a>
+
+                                        <ul>
+                                            <li>快速，轻量级的 2D 游戏物理库。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://github.com/los-cocos/cocos">Cocos2D</a>
+
+                                        <ul>
+                                            <li>游戏与多媒体图形库，面向 python 语言。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://cocos2d-x.org/">Cocos2d-x</a>
+
+                                        <ul>
+                                            <li>C++ OpenGL 2D/3D 引擎。主要使用 C++ 作为开发语言，但也可用使用 JavaScript 或者 Lua。面向所有主流的移动端/桌面操作系统。包含工具套件
+                                                CocoStudio 和 Cocos Code IDE。
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://www.scirra.com/">Construct 2</a>
+
+                                        <ul>
+                                            <li>面向初学者的 HTML5 游戏制作器，“制作器”意味着你无需编写 JS 代码，你可以使用 Actions（行动），event（事件）和 conditon（条件）
+                                                来避开那些“艰难”的部分完成游戏设计 。
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://coquette.maryrosecook.com/">Coquette</a>
+
+                                        <ul>
+                                            <li>使用 JavaScript 作为开发语言的微型框架，能够处理碰撞检测，游戏更新循环，画布渲染，键盘和鼠标输入事件。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://coronalabs.com/">Corona SDK</a>
+
+                                        <ul>
+                                            <li>面向 iOS 和 安卓 的移动端应用开发套件。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://duality.adamslair.net/">Duality</a>
+
+                                        <ul>
+                                            <li>C# / OpenGL 2D 游戏引擎，包含一个可视编辑器工具。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://impactjs.com/ejecta">Ejecta</a>
+
+                                        <ul>
+                                            <li>面向 iOS 的快速，开源的 HTML5 开发套件（JS，画布和视频）。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://enchantjs.com/">EnchantJS</a>
+
+                                        <ul>
+                                            <li>用于游戏和应用开发的简易 JavaScript 框架。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://endgate.net/">EndGate</a>
+
+                                        <ul>
+                                            <li>用于开发 HTML5 游戏的 TypeScript 框架。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://github.com/ajhager/engi">ENGi</a>
+
+                                        <ul>
+                                            <li>使用 Go 语言的多平台 2D 游戏库。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://farseerphysics.codeplex.com/">Farseer</a>
+
+                                        <ul>
+                                            <li>实时物理响应的碰撞检测系统。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://useflashpunk.net/">FlashPunk</a>
+
+                                        <ul>
+                                            <li>为开发 2D Flash 游戏设计的免费 ActionScript 3 库。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://flixel.org/index.html">Flixel</a>
+
+                                        <ul>
+                                            <li>使用 ActionScript3 的开源游戏制作工具。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.yoyogames.com/studio">GameMaker</a>
+
+                                        <ul>
+                                            <li>GameMakeer 为视频游戏开发既提供了一套拖拽工具，又提供了名为 GML 的内嵌脚本语言用于开发仅使用拖拽工具难以完成的更高级的游戏设计。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://gamesalad.com/">GameSalad</a>
+
+                                        <ul>
+                                            <li>Mac 和 Windows 平台上的游戏制作引擎。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://giderosmobile.com/">Gideros</a>
+
+                                        <ul>
+                                            <li>使用 lua 语言开发面向 iOS 和安卓平台的移动端应用游戏的跨平台框架。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://haxeflixel.com/">HaxeFlixel</a>
+
+                                        <ul>
+                                            <li>让跨平台游戏开发更加轻松的免费工具。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://github.com/iioinc/iio.js">iio.js</a>
+
+                                        <ul>
+                                            <li>为 HTML5 画布应用的开发和部署加速的 JavaScript 库。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://impactjs.com/">ImpactJS</a>
+
+                                        <ul>
+                                            <li>JavaScript 游戏引擎，可以用于为桌面/移动浏览器开发酷炫的 HTML5 游戏。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://code.google.com/p/jitterphysics/">Jitter</a>
+
+                                        <ul>
+                                            <li>C# 编写的高性能轻量级物理引擎。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://github.com/rxi/juno">Juno</a>
+
+                                        <ul>
+                                            <li>使用 lua 编写的 2D 像素游戏开发框架。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://kivy.org/">Kivy</a>
+
+                                        <ul>
+                                            <li>跨平台 python 框架，用于开发支持 Linux，Windows，OS X，Android 和 iOS 设备的应用。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://kivent.org/">Kivent</a>
+
+                                        <ul>
+                                            <li>用于 Kivy 的 2D 游戏框架。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.kiwijs.org/">KiwiJS</a>
+
+                                        <ul>
+                                            <li>友好有趣的开源 HTML5 游戏引擎，人称 HTML5 游戏引擎中的 WordPress。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://libgdx.badlogicgames.com/">LibGDX</a>
+
+                                        <ul>
+                                            <li>强大的 Java 图形库，完全免费，只需要编写一次代码就能够将游戏运行在桌面端，安卓端，网页端和 iOS 端等多个平台。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.limejs.com/">LimeJS</a>
+
+                                        <ul>
+                                            <li>HTML5 游戏框架，用于为现代触屏设备开发高性能，接近桌面应用体验的游戏。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://loomsdk.com/">Loom SDK</a>
+
+                                        <ul>
+                                            <li>一款开源的移动端 2D 应用/游戏开发框架，使用类似 ASS/JS/C# 的脚本语言，能够实时重载代码与素材文件，拥有强大的 2D 渲染引擎和 UI 框架。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://github.com/lums-proj/Lums">Lums</a>
+
+                                        <ul>
+                                            <li>一款用 C++11 编写的 2D/3D 游戏框架，非常高效与先进，仍处于活跃开发之中。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://lycheejs.org/index.html">Lycheejs</a>
+
+                                        <ul>
+                                            <li>JavaScript 游戏库，能够为运行在浏览器中的 HTML5 画布游戏，WebGL 游戏和 OPenGL 游戏以及本地环境下运行的游戏提供完整的原型及部署方案。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://love2d.org/">LÖVE</a>
+
+                                        <ul>
+                                            <li>Lua 2D 游戏引擎。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://brm.io/matter-js/">Matter.js</a>
+
+                                        <ul>
+                                            <li>用于网页的 2D 物理引擎。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://github.com/GearChicken/MINX">MINX</a>
+
+                                        <ul>
+                                            <li>使用 C++ 编写的开发风格类似 XNA 的开源 2D 游戏框架。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://getmoai.com/">MOAI</a>
+
+                                        <ul>
+                                            <li>面向专业游戏开发者的跨平台框架，使用 C++，OpenGL 和 Lua 脚本开发 iOS，Android，Windows，Linux，Chrome 和 OSX 平台上的游戏。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://melonjs.org/">MelonJS</a>
+
+                                        <ul>
+                                            <li>开源轻量级 HTML5 游戏引擎。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.monkey-x.com/">Monkey X</a>
+
+                                        <ul>
+                                            <li>跨平台编程语言和交叉编译器，以高性能游戏编程为目标。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.monogame.net/">Monogame</a>
+
+                                        <ul>
+                                            <li>Microsoft XNA 4 框架的开源版本。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://www.nodebox.net/">NodeBox</a>
+
+                                        <ul>
+                                            <li>用于创意设计的一系列 Python 工具。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.openra.net/">OpenRA</a>
+
+                                        <ul>
+                                            <li>OpenRA 是一款免费的 RTS 游戏引擎。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://schteppe.github.io/p2.js/">p2.js</a>
+
+                                        <ul>
+                                            <li>JavaScript 2D 物理引擎。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.pandajs.net/">PandaJS</a>
+
+                                        <ul>
+                                            <li>开源的 HTML5 引擎。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://phaser.io/">Phaser</a>
+
+                                        <ul>
+                                            <li>免费高效的 2D 游戏框架，用于为桌面环境与现代网页浏览器开发 HTML5 游戏，支持画布与 WebGL 渲染。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.lexaloffle.com/pico-8.php">PICO–8</a>
+
+                                        <ul>
+                                            <li>制作，分享小游戏的在线引擎。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.pixijs.com/">PixiJS</a>
+
+                                        <ul>
+                                            <li>HTML5 游戏渲染引擎 - 于 2013 年初首次发布，能够用于 WebGL 以取得较高的性能。如果不支持 WebGL，也能用于普通的 HTML 画布。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://www.processing.org/">Processing</a>
+
+                                        <ul>
+                                            <li>一门面向艺术家，设计师和研究人员的编程语言和开发环境，用于视觉设计。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://pygame.org/hifi.html">PyGame</a>
+
+                                        <ul>
+                                            <li>Python 的 2D 游戏引擎。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.puzzlescript.net/">PuzzleScript</a>
+
+                                        <ul>
+                                            <li>开源的 HTML5 解密游戏引擎。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.qiciengine.com/">QICI</a>
+
+                                        <ul>
+                                            <li>基于网页，用于开发 HTML5 游戏的高效工具。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.renpy.org/">Ren’Py</a>
+
+                                        <ul>
+                                            <li>一款开源的使用 Python 语言简化版的视觉小说开发引擎。支持 Windows，Mac OS X，Linux，安卓与 iOS 平台。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://rpgboss.com/">Rpgboss</a>
+
+                                        <ul>
+                                            <li>2D 角色扮演游戏引擎与编辑器，基于 Scale 和 libgdx，使用简单，无需编程知识。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.rpgmakerweb.com/">RPGMaker</a>
+
+                                        <ul>
+                                            <li>角色扮演游戏开发套件，老版本使用 ruby 作为脚本语言，新版本则使用 JS 进行开发。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://libsdl.org/">SDL</a>
+
+                                        <ul>
+                                            <li>SDL 是一款跨平台的编程库，能够通过 OPenGL 和 DirectX 对音频播放，键盘，鼠标，手柄摇杆，显卡等硬件设备进行底层访问。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.sfml-dev.org/">SFML</a>
+
+                                        <ul>
+                                            <li>简单高效的多媒体库。</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="https://developer.apple.com/library/ios/documentation/GraphicsAnimation/Conceptual/SpriteKit_PG/Introduction/Introduction.html">SpriteKit</a>
+
+                                        <ul>
+                                            <li>iOS/Mac 2D 游戏引擎。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://piqnt.com/stage.js/">Stage.js</a>
+
+                                        <ul>
+                                            <li>轻量级、高效的 2D HTML5 游戏渲染和布局引擎。用于跨平台的游戏开发。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://gamua.com/starling/">Starling</a>
+
+                                        <ul>
+                                            <li>GPU 加速的 2D Flash API。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.stencyl.com/">Stencyl</a>
+
+                                        <ul>
+                                            <li>用于在移动端，桌面端和网页端开发 2D 视频游戏的游戏创作平台。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://twinery.org/">Twine</a>
+
+                                        <ul>
+                                            <li>可下载或基于浏览器使用的游戏开发平台，能够创建和编辑剧情线路。不仅支持文本，该工具还支持在剧情线路图中加入音效、音乐和图片。通过它来完成文字冒险游戏只需要掌握非常少的编程知识。
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://mxa.codeplex.com/">XNA</a>
+
+                                        <ul>
+                                            <li>微软游戏开发框架。</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                                <h5 id="3d">3D</h5>
+
+                                <ul>
+                                    <li><a href="http://azul3d.org/">Azul3D</a>
+
+                                        <ul>
+                                            <li>Go 语言编写的 3D 引擎。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.blitzbasic.com/Products/blitz3d.php">Blitz3D</a>
+
+                                        <ul>
+                                            <li>用于快速开发 3D 游戏的类 basic 编程语言。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://bulletphysics.org/wordpress/">Bullet</a>
+
+                                        <ul>
+                                            <li>实时物理效果模拟。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://github.com/bkaradzic/bgfx">bgfx</a>
+
+                                        <ul>
+                                            <li>跨平台的图像渲染库，支持多种后端和多种开发语言。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://libcinder.org/">Cinder</a>
+
+                                        <ul>
+                                            <li>使用 C++ 编写的社区驱动的自由开源库，用于创作专业级质量的创意作品。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://github.com/Circular-Studios/Dash">Dash</a>
+
+                                        <ul>
+                                            <li>使用 D 语言编写的免费开源 3D 游戏引擎。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://gameplay3d.io/">gameplay</a>
+
+                                        <ul>
+                                            <li>使用 C++ 编写的免费开源跨平台游戏框架，可以用于开发 2D/3D 游戏。主要的目标群体四开发桌面和移动端游戏的独立开发者。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.godotengine.org/work_packages">Godot</a>
+
+                                        <ul>
+                                            <li>拥有丰富的 API 的开源游戏引擎。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.havok.com/vision-engine/">Havok Vision</a>
+
+                                        <ul>
+                                            <li>跨平台的游戏引擎，提供了强大而丰富的扩平台运行时技术。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.haxor.xyz/">Haxor</a>
+
+                                        <ul>
+                                            <li>将 Haxe 语言与 HTML5+Web?GL 相结合的引擎，帮助你开发出能够运行在现代浏览器上的强大应用。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.eyelead.com/hive/">Hive3D</a>
+
+                                        <ul>
+                                            <li>能够实时协作开发的 3D 游戏引擎。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.horde3d.org/">Horde3D</a>
+
+                                        <ul>
+                                            <li>小型的开源 3D 渲染引擎。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://irrlicht.sourceforge.net/">Irrlicht</a>
+
+                                        <ul>
+                                            <li>使用 C++ 编写的开源高性能实时 3D 引擎。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.jpct.net/">JPCT</a>
+
+                                        <ul>
+                                            <li>面向桌面 Java 和谷歌安卓的 3D 引擎。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://aws.amazon.com/pt/lumberyard/">Lumberyard</a>
+
+                                        <ul>
+                                            <li>基于寒霜引擎的免费 3A 级游戏引擎，集成 AWS 服务与 Twitch 直播。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.ode.org/">ODE</a>
+
+                                        <ul>
+                                            <li>开源的高性能库，用于模拟刚体动力学。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.ogre3d.org/">Ogre3D</a>
+
+                                        <ul>
+                                            <li>C++ 编写的面向场景，实时，灵活的 3D 渲染引擎（也用于游戏引擎）。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://www.panda3d.org/">Panda3D</a>
+
+                                        <ul>
+                                            <li>支持 python 和 C++ 编程 的 3D 渲染和游戏开发框架。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://paradox3d.net/">Paradox</a>
+
+                                        <ul>
+                                            <li>开源 C# 游戏引擎。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.piston.rs/">Piston</a>
+
+                                        <ul>
+                                            <li>使用 Rust 编写的模块化开源游戏引擎。官网范例中包含一个有趣的 Minecraft 复刻。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://playcanvas.com/">PlayCanvas</a>
+
+                                        <ul>
+                                            <li>基于 WebGL 的游戏引擎。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://polycode.org/">Polycode</a>
+
+                                        <ul>
+                                            <li>使用 C++（或者内嵌的 lua 脚本）来开发游戏的开源框架。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://springrts.com/">Spring</a>
+
+                                        <ul>
+                                            <li>强大免费的跨平台 RTS 游戏引擎。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://github.com/Rajawali/Rajawali">Rajawali</a>
+
+                                        <ul>
+                                            <li>面向安卓平台的 OpenGL ES 2.0/3.0 引擎。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://threejs.org/">Three.js</a>
+
+                                        <ul>
+                                            <li>Javascript 3D 库。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://biz.turbulenz.com/developers">Turbulenz</a>
+
+                                        <ul>
+                                            <li>开源的 HTML5 游戏引擎。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://www.unrealengine.com/">Unreal Engine 4</a>
+
+                                        <ul>
+                                            <li>由 Epic Games 开发的新一代游戏引擎。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://unity3d.com/">Unity 3D</a>
+
+                                        <ul>
+                                            <li>用于创作 2D/3D 游戏和交互内容的开发引擎。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://urho3d.github.io/">Urho3D</a>
+
+                                        <ul>
+                                            <li>跨平台的渲染/游戏引擎。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://waveengine.net/">Wave</a>
+
+                                        <ul>
+                                            <li>C# 编写的跨平台引擎。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://jmonkeyengine.org/">jMonkeyEngine 3</a>
+
+                                        <ul>
+                                            <li>为勇于尝试的 Java 开发者推出的 3D 开源引擎。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://voxeljs.com/">voxel.js</a>
+
+                                        <ul>
+                                            <li>voxel.js 提供了一系列工具，能够用于快速开发运行在浏览器中的类似 Minecraft 的 3D 像素游戏。</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div role="tabpanel" class="tab-pane  ui-tabs-panel ui-widget-content ui-corner-bottom" id="sound" aria-labelledby="ui-id-3" aria-expanded="false" aria-hidden="true" style="display: none;">
+                                <h4 id="音频">音频</h4>
+
+                                <p><em>音频编辑器，声音资源包及其他</em></p>
+
+                                <h5 id="资源包">资源包</h5>
+
+                                <ul>
+                                    <li><a href="http://www.freesound.org/">Freesound</a> - 以 CC 权限开源的音频文件大合集。</li>
+                                    <li><a href="https://musopen.org/">Musopen</a> - 免费的古典音乐。</li>
+                                    <li><a href="http://raisedbeaches.com/octave/index.html">Octave</a> - 免费的 UI 音效库。</li>
+                                    <li><a href="http://www.pacdv.com/sounds/index.html">PacDV</a> - 免费的古典音乐合集。</li>
+                                    <li><a href="http://soundbible.com/">SoundBible.com</a> - 以多种证书权限开源的音频/音效库。</li>
+                                    <li><a href="http://www.laptopnoise.com/freeglitch.htm">LaptopNoise</a> - 随机电脑故障音效大合集，可以免费使用。</li>
+                                    <li><a href="http://soundimage.org/">SoundImage</a> - 艺术家 Eric Matyas 的游戏音乐作品合集，只须声明游戏版权并提供站点链接就能够免费使用所有资源。</li>
+                                </ul>
+
+                                <h5 id="音乐音频编辑器">音乐/音频编辑器</h5>
+
+                                <ul>
+                                    <li><a href="http://sourceforge.net/projects/audacity/">Audacity</a>
+
+                                        <ul>
+                                            <li>开源跨平台的音频录制/编辑软件。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.audiosauna.com/">Audiosauna</a>
+
+                                        <ul>
+                                            <li>灵活高效，运行在浏览器中的音乐工作站。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.audiotool.com/app">Audiotool</a>
+
+                                        <ul>
+                                            <li>在线音乐编辑器。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.bfxr.net/">Bfxr</a>
+
+                                        <ul>
+                                            <li>用于为电脑游戏制作 8-bit 音效。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://famitracker.com/">FamiTracker</a>
+
+                                        <ul>
+                                            <li>免费的 Windos 音轨编辑器，用于为 NES/Famicom 系统制作音乐.</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.madtracker.org/main.php">MadTracker</a>
+
+                                        <ul>
+                                            <li>强大高效的音乐制作软件，全面支持 VST™, ASIO™ 和 ReWire™ 从而保证了其良好的通用性与兼容性。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://openmidiproject.osdn.jp/Sekaiju_en.html">Sekaiju</a>
+
+                                        <ul>
+                                            <li>开源的 MIDI 合声器。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://soundation.com/">Soundation</a>
+
+                                        <ul>
+                                            <li>在线使用的专业级音乐编辑器。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://tonematrix.audiotool.com/">iNudge</a>
+
+                                        <ul>
+                                            <li>在线制作音效。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://jfxr.frozenfractal.com/">jfxr</a>
+
+                                        <ul>
+                                            <li>Bfxr 音效生成器的 JS 移植版。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.drpetter.se/project_musagi.html">musagi</a>
+
+                                        <ul>
+                                            <li>一款开源的音乐编辑合成软件，相当复杂与庞大。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://github.com/smcameron/explodomatica">ExplodoMatica</a>
+                                        <ul>
+                                            <li>爆炸音效生成器(作者没有提供可执行版本，需要自己编译，可能更适合 linux 或 mac 用户)。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://github.com/finnkuusisto/JExplodomatica">JExplodoMatica</a>
+                                        <ul>
+                                            <li>爆炸音效生成器的 java 移植版。</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div role="tabpanel" class="tab-pane  ui-tabs-panel ui-widget-content ui-corner-bottom" id="boardgame" aria-labelledby="ui-id-4" aria-expanded="false" aria-hidden="true" style="display: none;">
+                                <h4 id="桌游">桌游</h4>
+
+                                <p><em>桌游制作工具</em></p>
+
+                                <ul>
+                                    <li><a href="http://www.boardgamizer.com/">Boardgamizer</a>
+
+                                        <ul>
+                                            <li>桌游设计创意生成器。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.rptools.net/">RPTools</a>
+
+                                        <ul>
+                                            <li>旨在强化桌上角色扮演游戏体验的开源工具合集。</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div role="tabpanel" class="tab-pane  ui-tabs-panel ui-widget-content ui-corner-bottom" id="recommended" aria-labelledby="ui-id-5" aria-expanded="false" aria-hidden="true" style="display: none;">
+                                <h4 id="推荐">推荐</h4>
+
+                                <p><em>博客，文章链接，杂志和其他</em></p>
+
+                                <h5 id="博客与文章链接">博客与文章链接</h5>
+
+                                <ul>
+                                    <li><a href="http://www-cs-students.stanford.edu/~amitp/gameprog.html">Amit’s Game Programming</a>
+                                    </li>
+                                    <li><a href="http://www.bigsushi.fm/">BigSushi</a></li>
+                                    <li><a href="http://www.designer-notes.com/">Designer Notes</a></li>
+                                    <li><a href="http://www.emanueleferonato.com/">Emanuele Feronato’s Blog</a></li>
+                                    <li><a href="http://www.extraguy.com/">Extraguy</a></li>
+                                    <li><a href="http://www.gamasutra.com/">Gamasutra</a></li>
+                                    <li><a href="http://gamedev.stackexchange.com/">Game Development on StackExchange</a></li>
+                                    <li><a href="http://www.gamedev.net/page/index.html">GameDev</a></li>
+                                    <li><a href="http://gamedevs.org/">GameDevs.org</a></li>
+                                    <li><a href="http://gamejolt.com/">GameJolt</a></li>
+                                    <li><a href="http://www.gamemarketeers.com/">GameMarketeers</a></li>
+                                    <li><a href="http://greenlitgaming.com/">Greenlit Gaming</a></li>
+                                    <li><a href="https://indienova.com/sp/www.html5gamedevs.com/">HTML5 Game Devs Forum</a></li>
+                                    <li><a href="http://www.hobbygamedev.com/">HobbyGameDev</a></li>
+                                    <li><a href="http://www.html5gamedevelopment.com/">Html5 Game Development</a></li>
+                                    <li><a href="http://www.indiedb.com/">IndieDB</a></li>
+                                    <li><a href="http://indius.org/">Indius</a></li>
+                                    <li><a href="http://www.java-gaming.org/">Java Gaming</a></li>
+                                    <li><a href="http://www.lostgarden.com/">Lost Garden</a></li>
+                                    <li><a href="http://www.polygon.com/">Polygon</a></li>
+                                    <li><a href="http://www.realtimerendering.com/">Real-Time Rendering</a></li>
+                                    <li><a href="https://superlevel.de/">Superlevel</a></li>
+                                    <li><a href="http://www.tigsource.com/">TIGSource</a></li>
+                                    <li><a href="http://truepcgaming.com/">TruePCGaming</a></li>
+                                    <li><a href="http://www.whatgamesare.com/featured-posts.html">WhatGamesAre</a></li>
+                                    <li><a href="http://www.iforce2d.net/">iforce2d</a></li>
+                                    <li><a href="http://indiegames.com/index.html">indiegames</a></li>
+                                    <li><a href="http://www.indievault.it/">indievault</a></li>
+                                </ul>
+
+                                <h5 id="书籍">书籍</h5>
+
+                                <p><em>游戏开发相关书籍推荐，本文的中文版翻译中附加了书籍对应的豆瓣链接</em></p>
+
+                                <p><em>为方便浏览也可以查看这个<a href="http://www.douban.com/doulist/43938894/">豆列</a></em></p>
+
+                                <ul>
+                                    <li><a href="http://www.amazon.com/dp/0123747317?tag=game-prog-books-20">Artificial Intelligence for
+                                        Games</a>
+
+                                        <ul>
+                                            <li>《游戏AI》</li>
+                                            <li><a href="https://book.douban.com/subject/1855885/">豆瓣链接</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.amazon.com/Flow-The-Psychology-Optimal-Experience/dp/0061339202/">Flow</a>
+
+                                        <ul>
+                                            <li>《心流》</li>
+                                            <li><a href="https://book.douban.com/subject/1419011/">豆瓣链接</a></li>
+                                            <li><a href="https://book.douban.com/subject/3422625/">中文版豆瓣链接</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.amazon.com/Game-Coding-Complete-Fourth-McShaffry/dp/1133776574/">Game Coding
+                                        Complete</a>
+
+                                        <ul>
+                                            <li>《游戏代码全接触》</li>
+                                            <li><a href="https://book.douban.com/subject/2409759/">豆瓣链接</a></li>
+                                            <li><a href="https://book.douban.com/subject/1454723/">中文版豆瓣链接</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.goodreads.com/book/show/1633392.Game_Development_Essentials">Game Development
+                                        Essentials: Game Level Design</a>
+
+                                        <ul>
+                                            <li>《游戏开发精髓：游戏关卡设计》</li>
+                                            <li><a href="https://book.douban.com/subject/3989776/">豆瓣链接</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.gameenginebook.com/">Game Engine Architecture</a>
+
+                                        <ul>
+                                            <li>《游戏引擎架构》</li>
+                                            <li><a href="https://book.douban.com/subject/3745143/">豆瓣链接</a></li>
+                                            <li><a href="https://book.douban.com/subject/25815142/">中文版豆瓣链接</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.goodreads.com/book/show/13705461-game-mechanics">Game Mechanics: Advanced Game
+                                        Design</a>
+
+                                        <ul>
+                                            <li>《游戏机制：高级游戏设计》</li>
+                                            <li><a href="https://book.douban.com/subject/10813202/">豆瓣链接</a></li>
+                                            <li><a href="https://book.douban.com/subject/25859579/">中文版豆瓣链接</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.amazon.com/Game-Programming-Gems-CD/dp/1584500492">Game Programming Gems</a>
+
+                                        <ul>
+                                            <li>《游戏编程瑰宝丛书》</li>
+                                            <li><a href="https://book.douban.com/series/11207">豆列链接</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://gameprogrammingpatterns.com/">Game Programming Patterns</a>
+
+                                        <ul>
+                                            <li>《游戏编程模式》</li>
+                                            <li><a href="https://book.douban.com/subject/26266378/">豆瓣链接</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.amazon.com/Scripting-Mastery-Premier-Press-Development/dp/1931841578">Game
+                                        Scripting Mastery</a>
+
+                                        <ul>
+                                            <li>《精通游戏脚本》</li>
+                                            <li><a href="https://book.douban.com/subject/1851588/">豆瓣链接</a></li>
+                                            <li><a href="https://book.douban.com/subject/1927405/">中文版豆瓣链接</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.pearsonhighered.com/educator/product/Interactive-Computer-Graphics-A-TopDown-Approach-with-ShaderBased-OpenGL/9780132545235.page">Interactive
+                                            Computer Graphics: A Top-Down Approach with Shader-Based OpenGL, 6/E</a>
+
+                                        <ul>
+                                            <li>《交互式计算机图形学：基于 OpenGL 着色器的自顶向下方法（第六版）》</li>
+                                            <li><a href="https://book.douban.com/subject/6718255/">豆瓣链接</a></li>
+                                            <li><a href="https://book.douban.com/subject/10777165/">中文版豆瓣链接</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.amazon.com/dp/047068867X?tag=game-prog-books-20">Level Up!</a>
+
+                                        <ul>
+                                            <li>《通关!游戏设计之道》</li>
+                                            <li><a href="https://book.douban.com/subject/5285472/">豆瓣链接</a></li>
+                                            <li><a href="https://book.douban.com/subject/25761063/">中文版豆瓣链接</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.amazon.com/Math-Primer-Graphics-Game-Development/dp/1568817231/">3D Math Primer
+                                        for Graphics and Game Development</a>
+
+                                        <ul>
+                                            <li>《图形学与游戏开发 3D 数学基础》</li>
+                                            <li><a href="https://book.douban.com/subject/2028710/">豆瓣链接</a></li>
+                                            <li><a href="https://book.douban.com/subject/1400419/">中文版豆瓣链接</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.amazon.com/dp/1435458869?tag=game-prog-books-20">Mathematics For 3D Game
+                                        Programming And Computer Graphics</a>
+
+                                        <ul>
+                                            <li>《3D 游戏编程与计算机图形数学》</li>
+                                            <li><a href="https://book.douban.com/subject/6675562/">豆瓣链接</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.amazon.com/Essential-Mathematics-Games-Interactive-Applications/dp/0123742978/">Essential
+                                        Mathematics for Games and Interactive Applications: A Programmer’s Guide</a>
+
+                                        <ul>
+                                            <li>《游戏与交互应用数学精髓：程序员指南》</li>
+                                            <li><a href="https://book.douban.com/subject/3590226/">豆瓣链接</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://natureofcode.com/book/">Nature of Code</a>
+
+                                        <ul>
+                                            <li>《代码本色》</li>
+                                            <li><a href="https://book.douban.com/subject/20452058/">豆瓣链接</a></li>
+                                            <li><a href="https://book.douban.com/subject/26264736/">中文版豆瓣链接</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.amazon.com/Physics-Game-Developers-David-Bourg/dp/0596000065">Physics for Game
+                                        Developers</a>
+
+                                        <ul>
+                                            <li>《游戏开发物理学》</li>
+                                            <li><a href="https://book.douban.com/subject/6961941/">豆瓣链接</a></li>
+                                            <li><a href="https://book.douban.com/subject/1230037/">中文版豆瓣链接</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.amazon.com/dp/1556220782?tag=game-prog-books-20">Programming Game AI by
+                                        Example</a>
+
+                                        <ul>
+                                            <li>《游戏AI编程范例》</li>
+                                            <li><a href="https://book.douban.com/subject/1850857/">豆瓣链接</a></li>
+                                            <li><a href="https://book.douban.com/subject/3081930/">中文版豆瓣链接</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.amazon.com/Real-Time-Rendering-Third-Edition-Akenine-Moller/dp/1568814240/">Real-Time
+                                        Rendering</a>
+
+                                        <ul>
+                                            <li>《实时渲染》</li>
+                                            <li><a href="https://book.douban.com/subject/1428582/">豆瓣链接</a></li>
+                                            <li><a href="https://book.douban.com/subject/1231141/">中文版豆瓣链接</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.amazon.com/Rules-Play-Game-Design-Fundamentals/dp/0262240459/">Rules of Play</a>
+
+                                        <ul>
+                                            <li>《游戏的法则》</li>
+                                            <li><a href="https://book.douban.com/subject/1817357/">豆瓣链接</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.amazon.com/The-Art-Game-Design-lenses/dp/0123694965/">The Art of Game Design</a>
+
+                                        <ul>
+                                            <li>《游戏设计艺术》</li>
+                                            <li><a href="https://book.douban.com/subject/3545625/">豆瓣链接</a></li>
+                                            <li><a href="https://book.douban.com/subject/4837351/">中文版链接</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.goodreads.com/book/show/391752.The_Ultimate_Guide_to_Video_Game_Writing_and_Design">The
+                                            Ultimate Guide to Video Game Writing and Design</a>
+
+                                        <ul>
+                                            <li>《视频游戏创作设计终极指南》</li>
+                                            <li><a href="https://book.douban.com/subject/2408472/">豆瓣链接</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.amazon.com/The-Visual-Story-Creating-Structure/dp/0240807790/">The Visual
+                                        Story</a>
+
+                                        <ul>
+                                            <li>《以眼说话》</li>
+                                            <li><a href="https://book.douban.com/subject/3308750/">豆瓣链接</a></li>
+                                            <li><a href="https://book.douban.com/subject/10801135/">中译版豆瓣链接</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.amazon.com/Theory-Game-Design-Raph-Koster/dp/1449363210/">Theory of Fun</a>
+
+                                        <ul>
+                                            <li>《游戏设计快乐之道》</li>
+                                            <li><a href="https://book.douban.com/subject/1921729/">豆瓣链接</a></li>
+                                            <li><a href="https://book.douban.com/subject/25982547/">中译版豆瓣链接</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.amazon.com/Tricks-Windows-Game-Programming-Gurus/dp/0672313618">Tricks of the
+                                        Windows Game Programming Gurus</a>
+
+                                        <ul>
+                                            <li>《Windows游戏编程大师技巧》</li>
+                                            <li><a href="https://book.douban.com/subject/2208666/">豆瓣链接</a></li>
+                                            <li><a href="https://book.douban.com/subject/20282993/">中译版豆瓣链接</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                                <h5 id="杂志">杂志</h5>
+
+                                <ul>
+                                    <li><a href="http://casualconnect.org/">Casual Connect</a>
+
+                                        <ul>
+                                            <li>休闲连线，提供全球游戏市场的调研数据。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.gdcvault.com/gdmag">Game Developer Magazine</a>
+
+                                        <ul>
+                                            <li>游戏开发者杂志。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://www.indiemag.fr/">IndieMag</a>
+
+                                        <ul>
+                                            <li>关注独立游戏的法国杂志。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.indieorama.com/">indie-o-rama</a>
+
+                                        <ul>
+                                            <li>关注独立游戏的杂志。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.makinggames.biz/">Making Games</a>
+
+                                        <ul>
+                                            <li>游戏制作杂志。</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                                <h5 id="视频博客">视频/博客</h5>
+
+                                <ul>
+                                    <li><a href="https://github.com/hzoo/awesome-gametalks">awesome-gametalks</a>
+
+                                        <ul>
+                                            <li>游戏访谈策划单 (GDC，youtube　等)</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                                <h5 id="知乎专栏">知乎专栏 </h5>
+                                <ul>
+                                    <li>
+                                        <a href="http://zhuanlan.zhihu.com/indienova">indienova 独立游戏</a>
+                                        <ul>
+                                            <li>
+                                                关注独立游戏的相关内容。介绍、发现独立游戏。
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="http://zhuanlan.zhihu.com/graphics">Behind the Pixels</a>
+                                        <ul>
+                                            <li>
+                                                计算机图形学以及3D渲染技术等相关内容。
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="http://zhuanlan.zhihu.com/ark-of-npcs">npc 的方舟</a>
+                                        <ul>
+                                            <li>
+                                                游戏相关的杂谈。
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="http://zhuanlan.zhihu.com/gaminglife">游戏人生</a>
+                                        <ul>
+                                            <li>游戏设计师矩阵的知乎专栏。</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="http://zhuanlan.zhihu.com/gamecores">电子游戏救世界</a>
+                                        <ul>
+                                            <li>机核网的知乎专栏。</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="http://zhuanlan.zhihu.com/retrogame">远古游戏周刊</a>
+                                        <ul>
+                                            <li>聊一聊老游戏。</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="http://zhuanlan.zhihu.com/dengtashiyanshi">灯塔实验室</a>
+                                        <ul>
+                                            <li>独立游戏制作、理论与发现。</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="http://zhuanlan.zhihu.com/game-design-workshop">游戏设计梦工厂</a>
+                                        <ul>
+                                            <li>USC的游戏设计</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="http://zhuanlan.zhihu.com/AnyButton">任意键</a>
+                                        <ul>
+                                            <li>游戏杂文</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="http://zhuanlan.zhihu.com/cursedgaming">游戏诅咒</a>
+                                        <ul>
+                                            <li>游戏评测</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="http://zhuanlan.zhihu.com/outsider">界外魔的游戏研究室</a>
+                                        <ul>
+                                            <li>游戏设计与理论</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="http://zhuanlan.zhihu.com/zhengjintiao">化身戏子</a>
+                                        <ul>
+                                            <li>游戏设计杂谈</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="http://zhuanlan.zhihu.com/lancelot-gao">独立游戏手工艺人</a>
+                                        <ul>
+                                            <li>游戏开发与设计相关</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="http://zhuanlan.zhihu.com/bylin">bylin 的游戏专栏</a>
+                                        <ul>
+                                            <li>游戏设计相关</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="http://zhuanlan.zhihu.com/indiegamepixel">独立游戏大像素</a>
+                                        <ul>
+                                            <li>独立游戏观察</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                                <h5 id="gamejams">Game Jams</h5>
+
+                                <ul>
+                                    
+                                    <li><a href="http://ludumdare.com/compo/">Ludum Dare</a>
+
+                                        <ul>
+                                            <li>最大的线上 game jam 比赛之一。</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                                <h5 id="完整游戏源码">完整游戏源码</h5>
+
+                                <ul>
+                                    <li><a href="https://github.com/id-Software/DOOM-3">Doom 3</a></li>
+                                    <li><a href="https://github.com/id-Software/DOOM">Doom</a></li>
+                                    <li><a href="https://3drealms.com/">Duke Nukem 3D: Atomic Edition</a></li>
+                                    <li><a href="https://github.com/jmechner/Prince-of-Persia-Apple-II">Prince of Persia</a></li>
+                                    <li><a href="https://github.com/id-Software/Quake-2">Quake 2</a></li>
+                                    <li><a href="https://github.com/id-Software/Quake-III-Arena">Quake III Arena</a></li>
+                                    <li><a href="https://github.com/id-Software/Quake">Quake</a></li>
+                                    <li><a href="https://github.com/simhacker/micropolis">SimCity</a></li>
+                                    <li><a href="https://github.com/id-Software/wolf3d">Wolfenstein 3D</a></li>
+                                </ul>
+                            </div>
+                            <div role="tabpanel" class="tab-pane  ui-tabs-panel ui-widget-content ui-corner-bottom" id="ads" aria-labelledby="ui-id-6" aria-expanded="false" aria-hidden="true" style="display: none;">
+                                <h4 id="广告">广告</h4>
+
+                                <p><em>我们也还是需要有点收入，对嘛？</em></p>
+
+                                <ul>
+                                    <li><a href="https://www.google.com/admob/">AdMob by Google</a>
+
+                                        <ul>
+                                            <li>谷歌推出的移动端广告与支付服务。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.adcolony.com/">AdColony</a>
+
+                                        <ul>
+                                            <li>移动端视频广告服务。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.appodeal.com/">Appodeal</a>
+
+                                        <ul>
+                                            <li>移动端广告与支付服务解决方案。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://www.chartboost.com/">ChartBoost</a>
+
+                                        <ul>
+                                            <li>支付与数据分析平台。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://www.revmobmobileadnetwork.com/">RevMob</a>
+
+                                        <ul>
+                                            <li>支付与广告解决方案。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://unity3d.com/pt/services/ads">Unity Ads</a>
+
+                                        <ul>
+                                            <li>Unity3D 官方广告 SDK。</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://vungle.com/">Vungle</a>
+
+                                        <ul>
+                                            <li>视频广告服务。</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div role="tabpanel" class="tab-pane  ui-tabs-panel ui-widget-content ui-corner-bottom" id="trial" aria-labelledby="ui-id-7" aria-expanded="false" aria-hidden="true" style="display: none;">
+                                <h4 id="学习资源">学习资源 <sup><span class="text-danger">new</span></sup></h4>
+
+                                <p><em>在线公开课，教程与屏幕录像</em></p>
+
+                                <h5 id="通用游戏开发">通用游戏开发</h5>
+
+                                <ul>
+                                    <li><a href="https://www.coursera.org/course/gameprogramming">Coursera: Beginning Game Programming with
+                                        C#</a>
+
+                                        <ul>
+                                            <li>公开课：使用 C# 开始游戏编程</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://www.khanacademy.org/computing/cs/programming-games-visualizations">Khan Academy:
+                                        Advanced JS: Games &amp; Visualizations</a>
+
+                                        <ul>
+                                            <li>可汗大学：高级 JS 编程：游戏与可视化</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://www.youtube.com/user/TheChernoProject">TheChernoProject</a>
+
+                                        <ul>
+                                            <li>切尔诺计划（专注游戏开发教学的油管频道）</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://www.udacity.com/course/html5-game-development--cs255">Udacity: HTML5 Game
+                                        Development</a>
+
+                                        <ul>
+                                            <li>HTML5 游戏开发课程</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://www.coursera.org/course/interactivepython1">Coursera: Introduction to interactive
+                                        Python programming</a>
+
+                                        <ul>
+                                            <li>公开课：交互式 python 编程导论</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://handmadehero.org/">HandmadeHero: making 2D game from scratch</a>
+
+                                        <ul>
+                                            <li>手制英雄：从零开始制作 2D 游戏</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.lostdecadegames.com/how-to-make-a-simple-html5-canvas-game/">Simple HTML5 Canvas
+                                        Game</a>
+
+                                        <ul>
+                                            <li>HTML5 画布游戏入门</li>
+                                            <li>
+                                                <a href="http://indienova.com/indie-game-development/how-to-make-a-simple-html5-canvas-game/">indienova
+                                                    译文地址</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.squidi.net/three/">三百游戏机制</a>
+                                        <ul>
+                                            <li>妙趣盎然的游戏机制说明网站，站长是游戏戴斯班克(Death Spank)的文案。</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="https://docs.yoyogames.com/">Yoyogames 的 GMS 官方文档</a>
+                                        <ul>
+                                            <li>Yoyogames 提供的 GMS 官方文档，研究学习这款引擎必须参考的资料。</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                                <h5 id="计算机图形学">计算机图形学</h5>
+
+                                <ul>
+                                    <li><a href="https://www.udacity.com/course/interactive-3d-graphics--cs291">Interactive 3D Graphics</a>
+
+                                        <ul>
+                                            <li>交互式 3D 图形学</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://www.coursera.org/learn/interactive-computer-graphics">Interactive Computer
+                                        Graphics</a>
+
+                                        <ul>
+                                            <li>交互式计算机图形学</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                        <h4 id="其他惊艳清单">其他惊艳清单</h4>
+
+                        <p>其他令人赞叹不已的惊艳清单可以在这张 <a href="https://github.com/bayandin/awesome-awesomeness">惊艳清单的清单</a> 中找到。 </p>
+
+                        <p>基于 ellisonleao 的 <a href="https://github.com/ellisonleao/magictools">magictools</a> 整理翻译而成。<br>
+                            文字内容并非对应原文翻译，我们在原版的基础上增补了一些国内开发者可能会感兴趣的信息，并基于个人理解对一些资源的描述/措辞做了少许改动。<br>
+                            本文信息还会持续地保持补充/更新。<br>
+                            囿于水平，本文的翻译和整理工作难免存在一些问题和缺憾，如果你有什么更好的建议，<a href="https://indienova.com/corp/suggestion">欢迎指出</a>。</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<style>
+    .nav-tabs>li>a:hover,.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+        border:none;
+    }
+    .tabs.tabs-bb ul.tab-nav li.ui-tabs-active a {
+        color:#08c!important;
+    }
+    ul.tab-nav li {
+        height:48px;
+    }
+    #tablist a{
+        height:50px;
+        line-height:50px;
+        color:#22aaee;
+        font-size: 23px!important;
+    }
+</style>                                                                                                                                                                                    
+
+            </div>
+        </section><!-- #content end -->
+
+                <!-- Footer
+        ============================================= -->
+        <a name="footer"></a>
+        <footer id="footer" class="dark">
+
+            <div class="container">
+
+                <!-- Footer Widgets
+                ============================================= -->
+                <div class="footer-widgets-wrap clearfix">
+
+                    <div class="col_one_fourth">
+
+                        <div class="widget clearfix">
+
+                            <img src="./游戏开发素材 _ indienova 独立游戏_files/indienova_footer_new.png" srcset="https://static.indienova.com/assets/images/logos/indienova_footer_new@2x.png 2x" alt="indeinova" class="footer-logo">
+
+                            <p class="nobottommargin">由喜爱<strong>独立游戏</strong>，追求游戏乐趣的我们建立于 <strong>2013</strong> 年。</p>
+
+                            <a href="http://weibo.com/indienova" class="social-icon si-small si-rounded topmargin-sm si-weibo" target="_blank">
+                                <i class="icon-cn-weibo"></i>
+                                <i class="icon-cn-weibo"></i>
+                            </a>
+
+                            <a href="https://static.indienova.com/assets/images/QR_WeChat-new.jpg" data-lightbox="image" class="social-icon si-small si-rounded topmargin-sm si-wechat" data-toggle="tooltip" data-placement="top" title="" data-original-title="微信号：indienova">
+                                <i class="icon-cn-wechat"></i>
+                                <i class="icon-cn-wechat"></i>
+                            </a>
+
+                            <a href="https://static.indienova.com/assets/images/QR_QQ_3.jpg" data-lightbox="image" class="social-icon si-small si-rounded topmargin-sm si-qq" data-toggle="tooltip" data-placement="top" title="" data-original-title="QQ 群：651728262, 484558766 (满), 438069902, 695554827">
+                                <i class="icon-cn-qq"></i>
+                                <i class="icon-cn-qq"></i>
+                            </a>
+
+                            <a href="http://zhuanlan.zhihu.com/indienova" class="social-icon si-small si-rounded topmargin-sm si-intensedebate" data-toggle="tooltip" data-placement="top" title="" data-original-title="知乎专栏" target="_blank">
+                                <i class="icon-cn-zhihu"></i>
+                                <i class="icon-cn-zhihu"></i>
+                            </a>
+
+                            <div class="clearfix"></div>
+
+                            <a href="http://steamcommunity.com/id/indienova/" class="social-icon si-small si-rounded notopmargin si-appstore" target="_blank">
+                                <i class="icon-steam"></i>
+                                <i class="icon-steam"></i>
+                            </a>
+
+                            <a href="https://www.facebook.com/Indienova-1689611754692764/" class="social-icon si-small si-rounded notopmargin si-facebook" target="_blank">
+                                <i class="icon-facebook"></i>
+                                <i class="icon-facebook"></i>
+                            </a>
+
+                            <a href="https://twitter.com/indienovacn" class="social-icon si-small si-rounded notopmargin si-twitter" target="_blank">
+                                <i class="icon-twitter"></i>
+                                <i class="icon-twitter"></i>
+                            </a>
+
+                            <a href="https://github.com/eastecho" class="social-icon si-small si-rounded notopmargin si-github" target="_blank">
+                                <i class="icon-github"></i>
+                                <i class="icon-github"></i>
+                            </a>
+
+                        </div>
+
+                                                    <p><br><small class="text-muted">ServerID: NOVA-L1</small></p>
+                        
+                    </div>
+
+                    <div class="col_one_fourth">
+
+                        <div class="widget widget_links clearfix">
+
+                            <h4>关注我们</h4>
+
+                            <div class="text-center">
+                                <img src="./游戏开发素材 _ indienova 独立游戏_files/QR_footer.png" width="120" height="120" class="footer-qr">
+                                <p><small>扫描二维码关注微信公众号</small></p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col_one_fourth">
+
+                        <div class="widget widget_links clearfix">
+
+                            <h4>容易错过的内容</h4>
+
+                            <ul>
+                                <li><a href="https://indienova.com/usergames">会员开发的游戏</a></li>
+                                <li><a href="https://indienova.com/sp/gameDevResource">游戏开发资源大全</a></li>
+                                <li><a href="https://indienova.com/steam/recommended">推荐的 Steam 游戏</a></li>
+                                <li><a href="https://indienova.com/steam/mustbuy">必买的 Steam 游戏</a></li>
+                                <li><a href="https://indienova.com/blogs/all">会员日志／DevLog</a></li>
+                                <li><a href="https://indienova.com/resource">游戏开发素材</a></li>
+                                <li><a href="https://indienova.com/corp/gutenberg">游戏古登堡计划</a></li>
+                                <li><a href="https://indienova.com/corp/contribute">向 indienova 投稿</a></li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col_one_fourth col_last">
+
+                        <div class="widget quick-contact-widget clearfix">
+
+                            <h4>快速联系我们</h4>
+
+                            <div id="quick-contact-form-result" data-notify-type="success" data-notify-msg="&lt;i class=icon-ok-sign&gt;&lt;/i&gt; 信息已经成功发送！"></div>
+
+                            <form id="quick-contact-form" name="quick-contact-form" action="https://indienova.com/func/quickcontact" method="post" class="quick-contact-form nobottommargin" novalidate="novalidate">
+
+                                <div class="form-process"></div>
+
+                                                                        <p>您可以<a href="https://indienova.com/get/login" data-lightbox="ajax"><strong>注册／登录</strong></a>后再发送信息，以便我们直接通过站内私信快速联系您。</p>
+                                        <div class="input-group divcenter">
+                                            <span class="input-group-addon"><i class="icon-user"></i></span>
+                                            <input type="text" class="required form-control input-block-level" id="quick-contact-form-name" name="quick-contact-form-name" value="" placeholder="您的名字" aria-required="true">
+                                        </div>
+                                        <div class="input-group divcenter">
+                                            <span class="input-group-addon"><i class="icon-email3"></i></span>
+                                            <input type="text" class="required form-control email input-block-level" id="quick-contact-form-email" name="quick-contact-form-email" value="" placeholder="邮件地址" aria-required="true">
+                                        </div>
+                                    
+                                
+                                <textarea class="required form-control input-block-level short-textarea" id="quick-contact-form-message" name="quick-contact-form-message" rows="4" cols="30" placeholder="信息" aria-required="true"></textarea>
+                                <input type="text" class="hidden" id="quick-contact-form-botcheck" name="quick-contact-form-botcheck" value="">
+                                <button type="submit" id="quick-contact-form-submit" name="quick-contact-form-submit" class="btn btn-danger nomargin" value="submit">发送信息</button>
+
+                            </form>
+
+                            <script type="text/javascript">
+
+                                $("#quick-contact-form").validate({
+                                    submitHandler: function(form) {
+                                        $(form).animate({ opacity: 0.4 });
+                                        $(form).find('.form-process').fadeIn();
+                                        $(form).ajaxSubmit({
+                                            target: '#quick-contact-form-result',
+                                            success: function() {
+                                                $(form).animate({ opacity: 1 });
+                                                $(form).find('.form-process').fadeOut();
+                                                $(form).find('.form-control').val('');
+                                                $('#quick-contact-form-result').attr('data-notify-msg', $('#quick-contact-form-result').html()).html('');
+                                                SEMICOLON.widget.notifications($('#quick-contact-form-result'));
+                                            }
+                                        });
+                                    }
+                                });
+
+                            </script>
+
+                        </div>
+
+                    </div>
+
+                </div><!-- .footer-widgets-wrap end -->
+
+            </div>
+
+            <!-- Copyrights
+            ============================================= -->
+            <div id="copyrights">
+
+                <div class="container clearfix">
+
+                    <div class="col_full nobottommargin center">
+                        <div class="copyrights-menu copyright-links clearfix">
+                            <a href="https://indienova.com/corp/privacy">隐私声明</a>/<a href="https://indienova.com/corp/faq">常见问题</a>/<a href="https://indienova.com/corp/about">关于我们</a>/<a href="https://indienova.com/corp/suggestion">联系我们</a>
+                        </div>
+                        <p class="bottommargin10"><small><a href="http://www.beian.miit.gov.cn/" target="_blank">京 ICP 备 16052096 号</a><br>增值电信业务经营许可证：<a href="http://www.beian.miit.gov.cn/" target="_blank">京 B2-20160196</a></small></p>
+                        <p class="nobottommargin">烽火连城（北京）科技有限公司</p>
+                        <p class="nobottommargin">版权所有 © 2013,2020 indienova.com 保留所有权利</p>
+                        <!-- GeoTrust True Site[tm] Smart Icon tag. Do not edit. -->
+                        <!--<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript" SRC="//smarticon.geotrust.com/si.js"></SCRIPT>-->
+                        <!-- end GeoTrust Smart Icon tag -->
+                        <div class="hidden">
+                            2020-07-08 17:41:38
+                            <script>
+                                var cnzz_s_tag = document.createElement('script');
+                                cnzz_s_tag.type = 'text/javascript';
+                                cnzz_s_tag.async = true;
+                                cnzz_s_tag.charset = 'utf-8';
+                                cnzz_s_tag.src = 'https://w.cnzz.com/c.php?id=1000033182&async=1';
+                                var root_s = document.getElementsByTagName('script')[0];
+                                root_s.parentNode.insertBefore(cnzz_s_tag, root_s);
+                            </script>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div><!-- #copyrights end -->
+
+        </footer><!-- #footer end -->
+
+        <script>
+
+            (function(){
+                var bp = document.createElement('script');
+                var curProtocol = window.location.protocol.split(':')[0];
+                if (curProtocol === 'https') {
+                    bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+                }
+                else {
+                    bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+                }
+                var s = document.getElementsByTagName("script")[0];
+                s.parentNode.insertBefore(bp, s);
+            })();
+
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-102514550-1', 'auto');
+            ga('send', 'pageview');
+        </script>
+        <!--
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({
+                google_ad_client: "ca-pub-8440950526066694",
+                enable_page_level_ads: true
+            });
+        </script>
+        -->
+    </div><!-- #wrapper end -->
+
+    <!-- Go To Top ============================================= -->
+    <div id="gotoTop" class="icon-angle-up"></div>
+
+    <!-- Footer Scripts ============================================= -->
+                                    <script src="./游戏开发素材 _ indienova 独立游戏_files/jweixin-1.6.0.js.下载"></script>
+    <script type="text/javascript" src="./游戏开发素材 _ indienova 独立游戏_files/functions.js.下载"></script>
+    <script type="text/javascript" src="./游戏开发素材 _ indienova 独立游戏_files/main.js.下载"></script>
+
+                <script>
+                $(document).ready(function () {
+                    /*
+                                             */
+                    wx.config({
+                        debug: false,
+                        appId: 'wx38efb8b5dace1256',
+                        timestamp: '1594201298',
+                        nonceStr: '1f91mXoQTYXF63sp',
+                        signature: 'cb62479c4ec59d5c5a0914b01418c4d0086c3116',
+                        jsApiList: ['updateTimelineShareData', 'updateAppMessageShareData']
+                    });
+
+                    // 微信
+                    wx.ready(function() {
+
+                        wx.updateTimelineShareData({
+                            title: $('title').html(),
+                            link: location.href.split('#')[0],
+                            imgUrl: 'https://indienova.com/assets/images/indienova-logo.png',
+                            success: function() {},
+                            cancel: function() {}
+                        });
+
+                        wx.updateAppMessageShareData({
+                            title: $('title').html(),
+                            desc: '',
+                            link: location.href.split('#')[0],
+                            imgUrl: 'https://indienova.com/assets/images/indienova-logo.png',
+                            type: '',
+                            dataUrl: ''
+                        });
+
+                    });
+
+                    /*
+                                             */
+
+                    $('pre').each(function(index){
+                        if ($(this)[0].style) {
+                            if ($(this)[0].style.length == 0)
+                                $(this).addClass('prettyprint');
+                        }
+                    });
+
+                    window.prettyPrint && prettyPrint();
+                });
+            </script>
+        
+    
+<div id="iv-container"><div class="iv-loader"></div> <div class="iv-snap-view"><div class="iv-snap-image-wrap"><div class="iv-snap-handle"></div></div><div class="iv-zoom-slider"><div class="iv-zoom-handle"></div></div></div><div class="iv-image-view"><div class="iv-image-wrap"></div></div><div class="iv-close"></div><div></div></div></body></html>
