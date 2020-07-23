@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/enemys">
+        <file>firedragon bitmaps ground/attack e0000.bmp</file>
+        <file>firedragon bitmaps ground/attack e0001.bmp</file>
+        <file>firedragon bitmaps ground/attack e0002.bmp</file>
+        <file>firedragon bitmaps ground/attack e0003.bmp</file>
+        <file>firedragon bitmaps ground/attack e0004.bmp</file>
+        <file>firedragon bitmaps ground/attack e0005.bmp</file>
+        <file>firedragon bitmaps ground/attack e0006.bmp</file>
+        <file>firedragon bitmaps ground/attack e0007.bmp</file>
+    </qresource>
+    <qresource prefix="/map">
+        <file>map.jpg</file>
+    </qresource>
+</RCC>

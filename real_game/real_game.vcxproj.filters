@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Form Files">
@@ -60,75 +60,49 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="bullet.h">
+    <QtMoc Include="bullet.h">
       <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="gameboard.h">
+    </QtMoc>
+    <QtMoc Include="gameboard.h">
       <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="people.h">
+    </QtMoc>
+    <QtMoc Include="people.h">
       <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="tower.h">
+    </QtMoc>
+    <QtMoc Include="tower.h">
       <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="towerattacksystem.h">
+    </QtMoc>
+    <QtMoc Include="towerattacksystem.h">
       <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="widget.h">
+    </QtMoc>
+    <QtMoc Include="widget.h">
       <Filter>Header Files</Filter>
-    </CustomBuild>
+    </QtMoc>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="debug\moc_bullet.cpp">
-      <Filter>Generated Files</Filter>
-    </ClCompile>
-    <ClCompile Include="release\moc_bullet.cpp">
-      <Filter>Generated Files</Filter>
-    </ClCompile>
-    <ClCompile Include="debug\moc_gameboard.cpp">
-      <Filter>Generated Files</Filter>
-    </ClCompile>
-    <ClCompile Include="release\moc_gameboard.cpp">
-      <Filter>Generated Files</Filter>
-    </ClCompile>
-    <ClCompile Include="debug\moc_people.cpp">
-      <Filter>Generated Files</Filter>
-    </ClCompile>
-    <ClCompile Include="release\moc_people.cpp">
-      <Filter>Generated Files</Filter>
-    </ClCompile>
+    
+    
+    
+    
+    
+    
     <CustomBuild Include="debug\moc_predefs.h.cbt">
       <Filter>Generated Files</Filter>
     </CustomBuild>
     <CustomBuild Include="release\moc_predefs.h.cbt">
       <Filter>Generated Files</Filter>
     </CustomBuild>
-    <ClCompile Include="debug\moc_tower.cpp">
-      <Filter>Generated Files</Filter>
-    </ClCompile>
-    <ClCompile Include="release\moc_tower.cpp">
-      <Filter>Generated Files</Filter>
-    </ClCompile>
-    <ClCompile Include="debug\moc_towerattacksystem.cpp">
-      <Filter>Generated Files</Filter>
-    </ClCompile>
-    <ClCompile Include="release\moc_towerattacksystem.cpp">
-      <Filter>Generated Files</Filter>
-    </ClCompile>
-    <ClCompile Include="debug\moc_widget.cpp">
-      <Filter>Generated Files</Filter>
-    </ClCompile>
-    <ClCompile Include="release\moc_widget.cpp">
-      <Filter>Generated Files</Filter>
-    </ClCompile>
-    <ClInclude Include="ui_widget.h">
-      <Filter>Generated Files</Filter>
-    </ClInclude>
+    
+    
+    
+    
+    
+    
+    
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="widget.ui">
+    <QtUic Include="widget.ui">
       <Filter>Form Files</Filter>
-    </CustomBuild>
+    </QtUic>
   </ItemGroup>
 </Project>

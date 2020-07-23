@@ -7,13 +7,13 @@ QT_BEGIN_NAMESPACE
 namespace Ui { class Widget; }
 QT_END_NAMESPACE
 
-class Widget : public QWidget
+class GameBoard : public QWidget
 {
     Q_OBJECT
 
 public:
-    Widget(QWidget *parent = nullptr);
-    ~Widget();
+    GameBoard(QWidget *parent = nullptr);
+    ~GameBoard();
 
 private:
     Ui::Widget *ui;
